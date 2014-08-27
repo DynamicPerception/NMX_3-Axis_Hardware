@@ -16588,10 +16588,22 @@ diameter 4.8 mm, vertical, grid 12.7 mm</description>
 </part>
 <part name="U$3" library="adafruit" deviceset="FIDUCIAL" device=""/>
 <part name="U$4" library="adafruit" deviceset="FIDUCIAL" device=""/>
-<part name="U8" library="QS_Components" deviceset="TVS_SMA" device=""/>
-<part name="U16" library="QS_Components" deviceset="TVS_SMA" device=""/>
-<part name="U17" library="QS_Components" deviceset="TVS_SMA" device=""/>
-<part name="U18" library="QS_Components" deviceset="TVS_SMA" device=""/>
+<part name="U8" library="QS_Components" deviceset="TVS_SMA" device="">
+<attribute name="MF" value="Bourns Inc"/>
+<attribute name="MPN" value="SMAJ48CA"/>
+</part>
+<part name="U16" library="QS_Components" deviceset="TVS_SMA" device="">
+<attribute name="MF" value="Bourns Inc"/>
+<attribute name="MPN" value="SMAJ48CA"/>
+</part>
+<part name="U17" library="QS_Components" deviceset="TVS_SMA" device="">
+<attribute name="MF" value="Bourns Inc"/>
+<attribute name="MPN" value="SMAJ48CA"/>
+</part>
+<part name="U18" library="QS_Components" deviceset="TVS_SMA" device="">
+<attribute name="MF" value="Bourns Inc"/>
+<attribute name="MPN" value="SMAJ48CA"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -17049,10 +17061,22 @@ diameter 4.8 mm, vertical, grid 12.7 mm</description>
 </instance>
 <instance part="U$3" gate="G$1" x="193.04" y="175.26"/>
 <instance part="U$4" gate="G$1" x="193.04" y="167.64"/>
-<instance part="U8" gate="G$1" x="93.98" y="215.9" rot="R90"/>
-<instance part="U16" gate="G$1" x="104.14" y="215.9" rot="R90"/>
-<instance part="U17" gate="G$1" x="114.3" y="215.9" rot="R90"/>
-<instance part="U18" gate="G$1" x="124.46" y="215.9" rot="R90"/>
+<instance part="U8" gate="G$1" x="93.98" y="215.9" rot="R90">
+<attribute name="MF" x="93.98" y="215.9" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="93.98" y="215.9" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="U16" gate="G$1" x="104.14" y="215.9" rot="R90">
+<attribute name="MF" x="104.14" y="215.9" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="104.14" y="215.9" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="U17" gate="G$1" x="114.3" y="215.9" rot="R90">
+<attribute name="MF" x="114.3" y="215.9" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="114.3" y="215.9" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="U18" gate="G$1" x="124.46" y="215.9" rot="R90">
+<attribute name="MF" x="124.46" y="215.9" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="124.46" y="215.9" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
