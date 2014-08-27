@@ -166,9 +166,9 @@
 <text x="10.541" y="48.41875" size="0.8128" layer="25">-</text>
 <text x="27.305" y="48.26" size="0.8128" layer="25">-</text>
 <text x="40.3225" y="48.26" size="0.8128" layer="25">-</text>
-<text x="11.557" y="46.482" size="0.8128" layer="25">LED1</text>
-<text x="24.003" y="46.482" size="0.8128" layer="25">LED2</text>
-<text x="36.83" y="46.482" size="0.8128" layer="25">LED3</text>
+<text x="11.557" y="46.609" size="0.8128" layer="25">LED1</text>
+<text x="24.257" y="46.609" size="0.8128" layer="25">LED2</text>
+<text x="37.084" y="46.609" size="0.8128" layer="25">LED3</text>
 </plain>
 <libraries>
 <library name="holes">

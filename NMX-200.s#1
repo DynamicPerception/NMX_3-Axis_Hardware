@@ -16588,10 +16588,10 @@ diameter 4.8 mm, vertical, grid 12.7 mm</description>
 </part>
 <part name="U$3" library="adafruit" deviceset="FIDUCIAL" device=""/>
 <part name="U$4" library="adafruit" deviceset="FIDUCIAL" device=""/>
-<part name="U8" library="QS_Components" deviceset="TVS_SMA" device=""/>
-<part name="U16" library="QS_Components" deviceset="TVS_SMA" device=""/>
-<part name="U17" library="QS_Components" deviceset="TVS_SMA" device=""/>
-<part name="U18" library="QS_Components" deviceset="TVS_SMA" device=""/>
+<part name="U$5" library="QS_Components" deviceset="TVS_SMA" device=""/>
+<part name="U$6" library="QS_Components" deviceset="TVS_SMA" device=""/>
+<part name="U$7" library="QS_Components" deviceset="TVS_SMA" device=""/>
+<part name="U$8" library="QS_Components" deviceset="TVS_SMA" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -17049,10 +17049,10 @@ diameter 4.8 mm, vertical, grid 12.7 mm</description>
 </instance>
 <instance part="U$3" gate="G$1" x="193.04" y="175.26"/>
 <instance part="U$4" gate="G$1" x="193.04" y="167.64"/>
-<instance part="U8" gate="G$1" x="93.98" y="215.9" rot="R90"/>
-<instance part="U16" gate="G$1" x="104.14" y="215.9" rot="R90"/>
-<instance part="U17" gate="G$1" x="114.3" y="215.9" rot="R90"/>
-<instance part="U18" gate="G$1" x="124.46" y="215.9" rot="R90"/>
+<instance part="U$5" gate="G$1" x="93.98" y="215.9" rot="R90"/>
+<instance part="U$6" gate="G$1" x="104.14" y="215.9" rot="R90"/>
+<instance part="U$7" gate="G$1" x="114.3" y="215.9" rot="R90"/>
+<instance part="U$8" gate="G$1" x="124.46" y="215.9" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -17514,8 +17514,8 @@ diameter 4.8 mm, vertical, grid 12.7 mm</description>
 <segment>
 <wire x1="104.14" y1="208.28" x2="104.14" y2="213.36" width="0.1524" layer="91"/>
 <label x="104.14" y="208.28" size="1.778" layer="95" font="vector" rot="R90"/>
-<pinref part="U16" gate="G$1" pin="1"/>
-<pinref part="U8" gate="G$1" pin="1"/>
+<pinref part="U$6" gate="G$1" pin="1"/>
+<pinref part="U$5" gate="G$1" pin="1"/>
 <wire x1="104.14" y1="213.36" x2="93.98" y2="213.36" width="0.1524" layer="91"/>
 <junction x="104.14" y="213.36"/>
 </segment>
@@ -17530,7 +17530,7 @@ diameter 4.8 mm, vertical, grid 12.7 mm</description>
 <segment>
 <wire x1="93.98" y1="220.98" x2="93.98" y2="226.06" width="0.1524" layer="91"/>
 <label x="93.98" y="220.98" size="1.778" layer="95" rot="R90"/>
-<pinref part="U8" gate="G$1" pin="2"/>
+<pinref part="U$5" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="CFO" class="0">
@@ -17545,7 +17545,7 @@ diameter 4.8 mm, vertical, grid 12.7 mm</description>
 <segment>
 <wire x1="104.14" y1="226.06" x2="104.14" y2="220.98" width="0.1524" layer="91"/>
 <label x="104.14" y="220.98" size="1.778" layer="95" font="vector" rot="R90"/>
-<pinref part="U16" gate="G$1" pin="2"/>
+<pinref part="U$6" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="AREF" class="0">
@@ -18935,7 +18935,7 @@ diameter 4.8 mm, vertical, grid 12.7 mm</description>
 <segment>
 <wire x1="114.3" y1="220.98" x2="114.3" y2="226.06" width="0.1524" layer="91"/>
 <label x="114.3" y="220.98" size="1.778" layer="95" font="vector" rot="R90"/>
-<pinref part="U17" gate="G$1" pin="2"/>
+<pinref part="U$7" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="CFO2" class="0">
@@ -18950,7 +18950,7 @@ diameter 4.8 mm, vertical, grid 12.7 mm</description>
 <segment>
 <wire x1="124.46" y1="226.06" x2="124.46" y2="220.98" width="0.1524" layer="91"/>
 <label x="124.46" y="220.98" size="1.778" layer="95" font="vector" rot="R90"/>
-<pinref part="U18" gate="G$1" pin="2"/>
+<pinref part="U$8" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="CCO2" class="0">
@@ -18969,9 +18969,9 @@ diameter 4.8 mm, vertical, grid 12.7 mm</description>
 <segment>
 <wire x1="114.3" y1="208.28" x2="114.3" y2="213.36" width="0.1524" layer="91"/>
 <label x="114.3" y="205.74" size="1.778" layer="95" rot="R90"/>
-<pinref part="U18" gate="G$1" pin="1"/>
+<pinref part="U$8" gate="G$1" pin="1"/>
 <wire x1="114.3" y1="213.36" x2="124.46" y2="213.36" width="0.1524" layer="91"/>
-<pinref part="U17" gate="G$1" pin="1"/>
+<pinref part="U$7" gate="G$1" pin="1"/>
 <junction x="114.3" y="213.36"/>
 </segment>
 </net>
