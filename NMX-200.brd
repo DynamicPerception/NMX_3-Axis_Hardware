@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.6.0">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2837,7 +2837,7 @@ design rules under a new name.</description>
 <attribute name="MF" value="Fairchild Semiconductor" x="-17.145" y="-65.56375" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="12.16875" y="19.51875" size="0.8128" layer="25" font="vector" rot="R90"/>
 </element>
-<element name="R4" library="resistor" package="R0402" value="10K" x="6.35" y="19.05" smashed="yes" rot="MR90">
+<element name="R4" library="resistor" package="R0402" value="10k" x="6.35" y="19.05" smashed="yes" rot="MR90">
 <attribute name="MPN" value="RC0402FR-0710KL" x="-77.47" y="90.17" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MF" value="Yageo" x="-77.47" y="90.17" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="7.33425" y="17.30375" size="0.8128" layer="26" rot="MR270"/>
@@ -2882,7 +2882,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="14.31925" y="46.355" size="0.8128" layer="25" rot="R90"/>
 <attribute name="VALUE" x="11.8745" y="46.355" size="0.8128" layer="27" rot="R90"/>
 </element>
-<element name="R5" library="resistor" package="R0402" value="10K" x="11.43" y="39.37" smashed="yes" rot="MR180">
+<element name="R5" library="resistor" package="R0402" value="10k" x="11.43" y="39.37" smashed="yes" rot="MR180">
 <attribute name="MPN" value="RC0402FR-0710KL" x="86.36" y="123.19" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="Yageo" x="86.36" y="123.19" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="10.795" y="38.44925" size="0.8128" layer="26" rot="MR180"/>

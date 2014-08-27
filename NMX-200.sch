@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.6.0">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -16250,7 +16250,7 @@ diameter 4.8 mm, vertical, grid 12.7 mm</description>
 <attribute name="MF" value="Fairchild Semiconductor"/>
 <attribute name="MPN" value="FDS6681Z"/>
 </part>
-<part name="R4" library="resistor" deviceset="R-US_" device="R0402" value="10K">
+<part name="R4" library="resistor" deviceset="R-US_" device="R0402" value="10k">
 <attribute name="MF" value="Yageo"/>
 <attribute name="MPN" value="RC0402FR-0710KL"/>
 </part>
@@ -16284,7 +16284,7 @@ diameter 4.8 mm, vertical, grid 12.7 mm</description>
 <attribute name="MF" value="Yageo"/>
 <attribute name="MPN" value="RC0402JR-07120RL"/>
 </part>
-<part name="R5" library="resistor" deviceset="R-US_" device="R0402" value="10K">
+<part name="R5" library="resistor" deviceset="R-US_" device="R0402" value="10k">
 <attribute name="MF" value="Yageo"/>
 <attribute name="MPN" value="RC0402FR-0710KL"/>
 </part>
