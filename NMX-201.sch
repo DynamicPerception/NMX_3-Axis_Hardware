@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="6.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -511,7 +511,7 @@ Source: http://www.allegromicro.com/en/Products/Part_Numbers/4983/4983.pdf</desc
 <vertex x="1.4" y="-1.4"/>
 <vertex x="-1.4" y="-1.4"/>
 </polygon>
-<circle x="-2.778125" y="2.7384375" radius="0.1774875" width="0.127" layer="51"/>
+<circle x="-2.778125" y="2.7384375" radius="0.1774875" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -2649,7 +2649,7 @@ type 0309, grid 2.5 mm</description>
 <description>&lt;b&gt;Frames for Sheet and Layout&lt;/b&gt;</description>
 <packages>
 <package name="DRAWING_NAME">
-<text x="0" y="0" size="0.8128" layer="51">&gt;DRAWING_NAME</text>
+<text x="0" y="0" size="0.8128" layer="25">&gt;DRAWING_NAME</text>
 </package>
 </packages>
 <symbols>
