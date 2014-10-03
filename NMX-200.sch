@@ -4505,7 +4505,7 @@ type 0309, grid 2.5 mm</description>
 <description>&lt;b&gt;Frames for Sheet and Layout&lt;/b&gt;</description>
 <packages>
 <package name="DRAWING_NAME">
-<text x="0" y="0" size="0.8128" layer="51">&gt;DRAWING_NAME</text>
+<text x="0" y="0" size="0.8128" layer="25">&gt;DRAWING_NAME</text>
 </package>
 </packages>
 <symbols>
