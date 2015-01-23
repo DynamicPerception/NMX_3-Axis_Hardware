@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.6.0">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -15534,9 +15534,9 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <attribute name="MF" value="Yageo"/>
 <attribute name="MPN" value="RC0402FR-0710KL"/>
 </part>
-<part name="U1" library="QS_Components" deviceset="VOLTAGE_REG" device="" value="MC78M05CDTG">
+<part name="U1" library="QS_Components" deviceset="VOLTAGE_REG" device="" value="MC78M05BDTG">
 <attribute name="MF" value="ON Semiconductor"/>
-<attribute name="MPN" value="MC78M05CDTRKG"/>
+<attribute name="MPN" value="MC78M05BDTRKG"/>
 </part>
 <part name="FB1" library="resistor" deviceset="R-US_" device="R0402" value="HZ0402B102R-10">
 <attribute name="MF" value="Laird-Signal Integrity Products"/>
