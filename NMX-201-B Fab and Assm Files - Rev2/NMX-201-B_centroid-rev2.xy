@@ -1,0 +1,58 @@
+Screaming Circuits SMD component position file.
+Created by Centroid_ScreamingCircuits_smd.ulp 1.2.0.
+
+Centroid Data for pc board: "NMX-201-b.brd" as of: 9/10/2015 12:58:54 PM
+Measurements are in inches. Comma delimited
+Only surface mount components included
+
+RefDes,Layer,LocationX,LocationY,Rotation
+C1,Top,0.306,1.438,180
+C2,Top,0.700,1.425,180
+C3,Top,0.300,1.225,270
+C4,Bottom,0.300,1.225,90
+C5,Top,0.438,1.050,0
+C6,Top,0.700,0.825,180
+C7,Top,1.200,0.825,180
+C8,Top,0.900,0.425,0
+C9,Bottom,0.650,0.675,90
+C10,Top,0.650,0.675,270
+C11,Top,1.100,1.450,180
+C12,Top,1.450,1.425,180
+C13,Top,1.150,1.075,180
+C14,Bottom,1.012,1.275,90
+C15,Top,1.012,1.275,270
+C16,Bottom,1.550,0.525,90
+C17,Bottom,0.362,0.575,270
+C18,Bottom,0.700,1.150,180
+C19,Bottom,1.550,1.100,270
+C20,Bottom,1.106,0.575,90
+IC1,Top,0.500,1.275,0
+IC2,Top,0.950,0.675,0
+IC3,Top,1.250,1.275,0
+LED1,Top,0.506,1.900,90
+LED2,Top,1.000,1.900,270
+LED3,Top,1.506,1.900,270
+R1,Top,0.350,1.531,180
+R2,Top,0.650,1.525,0
+R3,Top,0.700,1.069,270
+R4,Top,0.700,1.231,90
+R5,Bottom,0.575,1.050,0
+R6,Bottom,1.050,0.425,180
+R7,Top,1.150,0.925,0
+R8,Top,0.700,0.925,180
+R9,Top,1.200,0.625,270
+R10,Top,1.200,0.475,90
+R11,Top,1.500,1.231,270
+R12,Top,1.400,1.525,0
+R13,Top,1.175,1.550,90
+R14,Bottom,1.300,1.075,0
+R15,Top,1.450,1.106,180
+R16,Bottom,0.694,1.906,180
+R17,Bottom,0.825,1.906,0
+R18,Bottom,1.312,1.906,0
+R19,Top,0.444,0.338,90
+U$3,Top,0.550,0.100,0
+U$4,Top,1.900,1.900,0
+U1,Top,0.738,1.175,90
+U2,Top,1.212,0.575,90
+U5,Top,1.461,1.175,90
