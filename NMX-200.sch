@@ -15532,10 +15532,10 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <class number="0" name="default" width="0.2032" drill="0.254">
 <clearance class="0" value="0.1524"/>
 </class>
-<class number="1" name="vcc" width="0.635" drill="0.254">
+<class number="1" name="vcc" width="0.6096" drill="0.254">
 <clearance class="1" value="0.1524"/>
 </class>
-<class number="2" name="gnd" width="0.635" drill="0.254">
+<class number="2" name="gnd" width="0.3048" drill="0.254">
 <clearance class="2" value="0.1524"/>
 </class>
 <class number="3" name="vccControllers" width="0.3048" drill="0.254">
@@ -15867,7 +15867,7 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <attribute name="MF" value="Avago Technologies US Inc."/>
 <attribute name="MPN" value="ACPL-247-500E"/>
 </part>
-<part name="GND" library="QS_Components" deviceset="LMP8640MK" device="">
+<part name="U15" library="QS_Components" deviceset="LMP8640MK" device="">
 <attribute name="MF" value="Texas Instruments"/>
 <attribute name="MPN" value="LMP8640MK-H/NOPB"/>
 </part>
@@ -16331,7 +16331,7 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <attribute name="MF" x="68.58" y="48.26" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="MPN" x="68.58" y="48.26" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
-<instance part="GND" gate="G$1" x="121.92" y="71.12">
+<instance part="U15" gate="G$1" x="121.92" y="71.12">
 <attribute name="MF" x="121.92" y="71.12" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="121.92" y="71.12" size="1.778" layer="96" display="off"/>
 </instance>
@@ -16697,7 +16697,7 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <pinref part="C18" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="GND" gate="G$1" pin="V-"/>
+<pinref part="U15" gate="G$1" pin="V-"/>
 <pinref part="GND34" gate="1" pin="GND"/>
 <wire x1="116.84" y1="58.42" x2="116.84" y2="60.96" width="0.1524" layer="91"/>
 </segment>
@@ -16736,7 +16736,7 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <wire x1="215.9" y1="109.22" x2="215.9" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="12V" class="1">
+<net name="12V" class="3">
 <segment>
 <wire x1="165.1" y1="142.24" x2="177.8" y2="142.24" width="0.1524" layer="91"/>
 <label x="170.18" y="142.24" size="1.778" layer="95" font="vector"/>
@@ -16768,7 +16768,7 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <pinref part="C1" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="GND" gate="G$1" pin="+IN"/>
+<pinref part="U15" gate="G$1" pin="+IN"/>
 <pinref part="R18" gate="G$1" pin="2"/>
 <wire x1="116.84" y1="78.74" x2="116.84" y2="88.9" width="0.1524" layer="91"/>
 <label x="116.84" y="83.82" size="1.778" layer="95" rot="R180"/>
@@ -17679,7 +17679,7 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <pinref part="SUPPLY21" gate="G$1" pin="5V"/>
 </segment>
 <segment>
-<pinref part="GND" gate="G$1" pin="V+"/>
+<pinref part="U15" gate="G$1" pin="V+"/>
 <pinref part="SUPPLY19" gate="G$1" pin="5V"/>
 <wire x1="134.62" y1="71.12" x2="144.78" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="71.12" x2="149.86" y2="71.12" width="0.1524" layer="91"/>
@@ -18134,12 +18134,12 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 </net>
 <net name="N$8" class="0">
 <segment>
-<pinref part="GND" gate="G$1" pin="VOUT"/>
+<pinref part="U15" gate="G$1" pin="VOUT"/>
 <pinref part="R8" gate="G$1" pin="2"/>
 <wire x1="134.62" y1="66.04" x2="137.16" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="12V_MOT" class="1">
+<net name="12V_MOT" class="3">
 <segment>
 <wire x1="144.78" y1="208.28" x2="154.94" y2="208.28" width="0.1524" layer="91"/>
 <label x="142.24" y="208.28" size="1.778" layer="95"/>
@@ -18152,7 +18152,7 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 </segment>
 <segment>
 <pinref part="R18" gate="G$1" pin="1"/>
-<pinref part="GND" gate="G$1" pin="-IN"/>
+<pinref part="U15" gate="G$1" pin="-IN"/>
 <wire x1="127" y1="88.9" x2="127" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="127" y1="78.74" x2="124.46" y2="78.74" width="0.1524" layer="91"/>
 <label x="127" y="83.82" size="1.778" layer="95"/>
