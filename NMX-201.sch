@@ -11030,7 +11030,7 @@ http://www.copal-electronics.com</description>
 <class number="1" name="vcc" width="0.635" drill="0.254">
 <clearance class="1" value="0.1524"/>
 </class>
-<class number="2" name="gnd" width="0.635" drill="0.254">
+<class number="2" name="gnd" width="0.254" drill="0.254">
 <clearance class="2" value="0.1524"/>
 </class>
 <class number="3" name="vccControllers" width="0.3048" drill="0.254">
