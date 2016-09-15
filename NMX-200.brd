@@ -2520,7 +2520,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <clearance class="5" value="0.1524"/>
 </class>
 </classes>
-<designrules name="SSC-EAGLE-4Lyr_v1.0.0.3">
+<designrules name="SSC-EAGLE-4Lyr_v1.0.0.3 *">
 <description language="en">&lt;b&gt;EAGLE Design Rules for *4* Layer Designs (MLB)&lt;/b&gt;
 &lt;p&gt;
 This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requirements for our 4 layer MLB products. For questions, comments, suggestions, please contact Sunstone Customer Support:&lt;p&gt;&lt;b&gt;Email:&lt;/b&gt; mailto:support@sunstone.com&lt;b&gt;&lt;br&gt;Phone:&lt;/b&gt; 800-228-8198&lt;p&gt; v1.1Mod10/16/07~Layers-core reversal.Distance C/D.Restring%.Supply G
@@ -2579,7 +2579,7 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <param name="mlMaxStopFrame" value="3mil"/>
 <param name="mlMinCreamFrame" value="0mil"/>
 <param name="mlMaxCreamFrame" value="0mil"/>
-<param name="mlViaStopLimit" value="0mil"/>
+<param name="mlViaStopLimit" value="11mil"/>
 <param name="srRoundness" value="0"/>
 <param name="srMinRoundness" value="0mil"/>
 <param name="srMaxRoundness" value="0mil"/>
@@ -5367,14 +5367,28 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <approved hash="19,1,2b4489e259840823"/>
 <approved hash="18,29,e9530347c3462952"/>
 <approved hash="18,29,203df5e1b5e0603c"/>
+<approved hash="18,29,19b98fffcb3de083"/>
+<approved hash="18,29,cfcc0987ed24f5c1"/>
+<approved hash="18,29,9407bbb9c7a61d39"/>
+<approved hash="18,29,48322be59523fdd7"/>
+<approved hash="18,29,f7d967f52d0f40a5"/>
+<approved hash="18,29,ed896cf9eaea98f9"/>
+<approved hash="18,29,e0ba8af115d486fb"/>
+<approved hash="18,29,a0ab3e573a01a4d5"/>
+<approved hash="18,29,5ef83cdee4e72ade"/>
+<approved hash="18,29,fa0a2e92a0176af6"/>
+<approved hash="18,29,7b8a5d2200727ff7"/>
+<approved hash="18,29,bbae2f57eb6b1100"/>
+<approved hash="18,30,7b8a5d2200727ff7"/>
+<approved hash="18,30,7bbfb168497885a7"/>
 <approved hash="18,29,ec2c6058064e8a3a"/>
 <approved hash="18,29,aef93f5bccdb5d79"/>
 <approved hash="18,29,fc1dcb43dd42ea1c"/>
 <approved hash="18,29,bb22cc24ba2bcd2d"/>
-<approved hash="18,29,cee1e82eb3237200"/>
 <approved hash="18,29,3ab71e8930d806eb"/>
-<approved hash="18,29,979faadc37543472"/>
+<approved hash="18,29,cee1e82eb3237200"/>
 <approved hash="18,29,bfc25c2669384158"/>
+<approved hash="18,29,979faadc37543472"/>
 <approved hash="18,29,63061ba817f2a262"/>
 <approved hash="18,29,993e64911396ee39"/>
 <approved hash="18,29,65ee3b797b721da7"/>
@@ -5384,45 +5398,31 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <approved hash="18,29,aa39c54eb24ddd3a"/>
 <approved hash="18,29,d6f8fdd2c2b1a8c4"/>
 <approved hash="18,29,bd5e9822e431860e"/>
-<approved hash="18,29,f8d7b18bb1bdfaef"/>
 <approved hash="18,29,e6e1ca710dc85c19"/>
 <approved hash="18,29,a926dc058efb27dd"/>
+<approved hash="18,29,f8d7b18bb1bdfaef"/>
 <approved hash="18,29,979dfdd91bd17195"/>
 <approved hash="18,29,5c8f304059df837a"/>
 <approved hash="18,29,dcf936ab5f4c07b5"/>
 <approved hash="18,29,8f867e9a023b46a4"/>
 <approved hash="18,29,871b78708c47c26e"/>
-<approved hash="18,29,19b98fffcb3de083"/>
-<approved hash="18,29,cfcc0987ed24f5c1"/>
 <approved hash="18,29,5103c498329ca707"/>
-<approved hash="18,29,9407bbb9c7a61d39"/>
-<approved hash="18,29,48322be59523fdd7"/>
 <approved hash="18,29,bdbae67022314180"/>
 <approved hash="18,29,c30f7eea6c344d96"/>
-<approved hash="18,29,f7d967f52d0f40a5"/>
-<approved hash="18,29,450ac7ca0acd880d"/>
-<approved hash="18,29,5912c219c21e5915"/>
 <approved hash="18,29,6ef8ed21de265dff"/>
-<approved hash="18,29,bb1ff2d572d63b1c"/>
+<approved hash="18,29,5912c219c21e5915"/>
+<approved hash="18,29,450ac7ca0acd880d"/>
 <approved hash="18,29,4ca41f99ec9abfa7"/>
+<approved hash="18,29,bb1ff2d572d63b1c"/>
 <approved hash="18,29,2ce2a789518edae5"/>
-<approved hash="18,29,ed896cf9eaea98f9"/>
 <approved hash="18,29,36cc73390f3f4aca"/>
 <approved hash="18,29,9fc84ae936d2e3f3"/>
-<approved hash="18,29,e0ba8af115d486fb"/>
-<approved hash="18,29,a0ab3e573a01a4d5"/>
 <approved hash="18,29,e06877cfabcf3c68"/>
 <approved hash="18,29,b0f92266a26630f9"/>
 <approved hash="18,29,caf5148a2a8af4f5"/>
-<approved hash="18,29,5ef83cdee4e72ade"/>
-<approved hash="18,29,fa0a2e92a0176af6"/>
 <approved hash="18,29,aa87682d8fbd4d17"/>
-<approved hash="18,29,7b8a5d2200727ff7"/>
-<approved hash="18,29,bbae2f57eb6b1100"/>
 <approved hash="18,29,a31a74b8f75c5f5a"/>
 <approved hash="18,30,3b095fd285d9e102"/>
-<approved hash="18,30,7b8a5d2200727ff7"/>
-<approved hash="18,30,7bbfb168497885a7"/>
 <approved hash="4,1,a3238da394611e55"/>
 <approved hash="4,1,2d260bbe7dcedf26"/>
 <approved hash="6,1,437446301a301f74"/>
