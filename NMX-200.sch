@@ -15376,114 +15376,99 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <smd name="P$5" x="1.3" y="3.03" dx="1.75" dy="0.4" layer="1" rot="R90"/>
 <smd name="P$10" x="0.9625" y="-0.25" dx="1.425" dy="2.5" layer="1" rot="R180"/>
 <smd name="P$11" x="-0.9625" y="-0.25" dx="1.425" dy="2.5" layer="1" rot="R180"/>
-<polygon width="0.127" layer="1">
-<vertex x="-2.075" y="-1.1"/>
-<vertex x="-2.075" y="2.05"/>
-<vertex x="-3.9" y="2.05"/>
-<vertex x="-3.9" y="1.35"/>
-<vertex x="-3.375" y="1.35"/>
-<vertex x="-3.375" y="-1.1"/>
+<polygon width="0.254" layer="1">
+<vertex x="-2.1258" y="-1.0492"/>
+<vertex x="-2.1258" y="1.9992"/>
+<vertex x="-3.8492" y="1.9992"/>
+<vertex x="-3.8492" y="1.3754"/>
+<vertex x="-3.3496" y="1.3754"/>
+<vertex x="-3.3496" y="-1.0492"/>
 </polygon>
 <pad name="P$9" x="-2.725" y="0" drill="1" diameter="1.4" rot="R180"/>
-<polygon width="0.127" layer="29">
-<vertex x="-3.5" y="1.25"/>
-<vertex x="-3.5" y="-1.2"/>
-<vertex x="-1.95" y="-1.2"/>
-<vertex x="-1.95" y="2.15"/>
-<vertex x="-4" y="2.15"/>
-<vertex x="-4" y="1.25"/>
-</polygon>
 <pad name="P$6" x="-2.425" y="3.03" drill="0.8" diameter="1.2"/>
-<rectangle x1="-3.9" y1="2.3" x2="-1.9" y2="3.7" layer="1"/>
 <pad name="P$7" x="2.425" y="3.03" drill="0.8" diameter="1.2" rot="R180"/>
-<rectangle x1="1.9" y1="2.3" x2="3.9" y2="3.7" layer="1" rot="R180"/>
-<rectangle x1="-4" y1="2.2" x2="-1.8" y2="3.8" layer="29"/>
-<rectangle x1="1.8" y1="2.2" x2="4" y2="3.8" layer="29"/>
-<polygon width="0.127" layer="31">
-<vertex x="-3.9" y="2.05"/>
-<vertex x="-2.1" y="2.05"/>
-<vertex x="-2.1" y="0.3" curve="90"/>
-<vertex x="-2.5" y="0.6"/>
-<vertex x="-3" y="0.6" curve="90"/>
-<vertex x="-3.35" y="0.3"/>
-<vertex x="-3.35" y="1.35"/>
-<vertex x="-3.9" y="1.35"/>
-</polygon>
-<polygon width="0.127" layer="31">
-<vertex x="-3.35" y="-1.1"/>
-<vertex x="-2.1" y="-1.1"/>
-<vertex x="-2.1" y="0.05"/>
-<vertex x="-2.1" y="-0.05" curve="-90"/>
-<vertex x="-2.7" y="-0.65" curve="-94.24231"/>
-<vertex x="-3.35" y="0.05"/>
-</polygon>
-<polygon width="0.127" layer="1">
-<vertex x="2.075" y="-1.1"/>
-<vertex x="2.075" y="2.05"/>
-<vertex x="3.9" y="2.05"/>
-<vertex x="3.9" y="1.35"/>
-<vertex x="3.375" y="1.35"/>
-<vertex x="3.375" y="-1.1"/>
+<polygon width="0.254" layer="1">
+<vertex x="2.1258" y="-1.0492"/>
+<vertex x="2.1258" y="1.9738"/>
+<vertex x="3.8238" y="1.9738"/>
+<vertex x="3.8238" y="1.4262"/>
+<vertex x="3.2988" y="1.4262"/>
+<vertex x="3.2988" y="-1.0492"/>
 </polygon>
 <pad name="P$8" x="2.725" y="0" drill="1" diameter="1.4"/>
-<polygon width="0.127" layer="30">
-<vertex x="3.5" y="1.25"/>
-<vertex x="3.5" y="-1.2"/>
-<vertex x="1.95" y="-1.2"/>
-<vertex x="1.95" y="2.15"/>
-<vertex x="4" y="2.15"/>
-<vertex x="4" y="1.25"/>
-</polygon>
-<polygon width="0.127" layer="32">
-<vertex x="3.9" y="2.05"/>
-<vertex x="2.1" y="2.05"/>
-<vertex x="2.1" y="0.3"/>
-<vertex x="2.2" y="0.3" curve="-90"/>
-<vertex x="2.5" y="0.6"/>
-<vertex x="2.7" y="0.6"/>
-<vertex x="3" y="0.6" curve="-90"/>
-<vertex x="3.3" y="0.3"/>
-<vertex x="3.35" y="0.3"/>
-<vertex x="3.35" y="1.35"/>
-<vertex x="3.9" y="1.35"/>
-</polygon>
-<polygon width="0.127" layer="32">
-<vertex x="3.4" y="-1.1"/>
-<vertex x="2.1" y="-1.1"/>
-<vertex x="2.1" y="0.05"/>
-<vertex x="2.1" y="-0.05" curve="90"/>
-<vertex x="2.7" y="-0.65" curve="94.24231"/>
-<vertex x="3.35" y="0.05" curve="-188.478593"/>
-<vertex x="3.4" y="0.05"/>
-</polygon>
 <wire x1="-3.35" y1="0.3" x2="-3.35" y2="0" width="0.127" layer="31"/>
 <wire x1="-2.1" y1="0.25" x2="-2.1" y2="0" width="0.127" layer="31"/>
-<polygon width="0.127" layer="31">
-<vertex x="3.9" y="1.35"/>
-<vertex x="3.9" y="2.05"/>
-<vertex x="2.1" y="2.05"/>
-<vertex x="2.1" y="0.05" curve="-90"/>
-<vertex x="2.6" y="0.55"/>
-<vertex x="2.75" y="0.55"/>
-<vertex x="2.8" y="0.55"/>
-<vertex x="2.85" y="0.55" curve="-90"/>
-<vertex x="3.35" y="0.05"/>
-<vertex x="3.35" y="1.35"/>
-</polygon>
-<polygon width="0.127" layer="31">
-<vertex x="3.35" y="0.15"/>
-<vertex x="3.35" y="-1.1"/>
-<vertex x="2.1" y="-1.1"/>
-<vertex x="2.1" y="0.1"/>
-<vertex x="2.1" y="0.05" curve="90"/>
-<vertex x="2.75" y="-0.6" curve="102.680383"/>
-</polygon>
-<rectangle x1="-3.9" y1="2.3" x2="-1.9" y2="3.7" layer="31"/>
-<rectangle x1="1.9" y1="2.3" x2="3.9" y2="3.7" layer="31"/>
 <wire x1="-4.2" y1="4.1" x2="-4.2" y2="-1.6" width="0.127" layer="21"/>
-<wire x1="-4.2" y1="-1.6" x2="4.2" y2="-1.6" width="0.127" layer="21"/>
 <wire x1="4.2" y1="-1.6" x2="4.2" y2="4.1" width="0.127" layer="21"/>
 <wire x1="4.2" y1="4.1" x2="-4.2" y2="4.1" width="0.127" layer="21"/>
+<polygon width="0.254" layer="29">
+<vertex x="-3.8608" y="2.0066"/>
+<vertex x="-2.1336" y="2.0066"/>
+<vertex x="-2.1336" y="-1.0414"/>
+<vertex x="-3.3528" y="-1.0414"/>
+<vertex x="-3.3528" y="1.3716"/>
+<vertex x="-3.8608" y="1.3716"/>
+</polygon>
+<polygon width="0.254" layer="29">
+<vertex x="2.1336" y="1.9812"/>
+<vertex x="3.8354" y="1.9812"/>
+<vertex x="3.8354" y="1.4224"/>
+<vertex x="3.302" y="1.4224"/>
+<vertex x="3.302" y="-1.0414"/>
+<vertex x="2.1336" y="-1.0414"/>
+</polygon>
+<polygon width="0.254" layer="31">
+<vertex x="-3.8608" y="2.0066"/>
+<vertex x="-2.1336" y="2.0066"/>
+<vertex x="-2.1336" y="-1.0414"/>
+<vertex x="-3.3528" y="-1.0414"/>
+<vertex x="-3.3528" y="1.3716"/>
+<vertex x="-3.8608" y="1.3716"/>
+</polygon>
+<polygon width="0.254" layer="31">
+<vertex x="2.1336" y="1.9812"/>
+<vertex x="3.8354" y="1.9812"/>
+<vertex x="3.8354" y="1.4224"/>
+<vertex x="3.302" y="1.4224"/>
+<vertex x="3.302" y="-1.0414"/>
+<vertex x="2.1336" y="-1.0414"/>
+</polygon>
+<polygon width="0.254" layer="1">
+<vertex x="-2.032" y="3.5814"/>
+<vertex x="-2.032" y="2.413"/>
+<vertex x="-3.7846" y="2.413"/>
+<vertex x="-3.7846" y="3.5814"/>
+</polygon>
+<polygon width="0.254" layer="29">
+<vertex x="-3.7846" y="3.5814"/>
+<vertex x="-2.0574" y="3.5814"/>
+<vertex x="-2.0574" y="2.413"/>
+<vertex x="-3.7846" y="2.413"/>
+</polygon>
+<polygon width="0.254" layer="31">
+<vertex x="-3.7846" y="3.5814"/>
+<vertex x="-2.032" y="3.5814"/>
+<vertex x="-2.032" y="2.413"/>
+<vertex x="-3.7846" y="2.413"/>
+</polygon>
+<polygon width="0.254" layer="1">
+<vertex x="2.0066" y="3.5814"/>
+<vertex x="3.7846" y="3.5814"/>
+<vertex x="3.7846" y="2.413"/>
+<vertex x="2.0066" y="2.413"/>
+</polygon>
+<polygon width="0.254" layer="29">
+<vertex x="2.0066" y="3.5814"/>
+<vertex x="3.7846" y="3.5814"/>
+<vertex x="3.7846" y="2.413"/>
+<vertex x="2.0066" y="2.413"/>
+</polygon>
+<polygon width="0.254" layer="31">
+<vertex x="2.0066" y="3.5814"/>
+<vertex x="3.7846" y="3.5814"/>
+<vertex x="3.7846" y="2.413"/>
+<vertex x="2.0066" y="2.413"/>
+</polygon>
 </package>
 </packages>
 <symbols>
