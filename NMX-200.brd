@@ -135,8 +135,8 @@
 </layers>
 <board>
 <plain>
-<wire x1="67.31" y1="0" x2="67.31" y2="63.5" width="0.2032" layer="20"/>
-<wire x1="67.31" y1="63.5" x2="0" y2="63.5" width="0.2032" layer="20"/>
+<wire x1="67.31" y1="0" x2="67.31" y2="63.5" width="0" layer="20"/>
+<wire x1="67.31" y1="63.5" x2="0" y2="63.5" width="0" layer="20"/>
 <wire x1="0" y1="63.5" x2="0" y2="11.43" width="0" layer="20"/>
 <wire x1="0" y1="11.43" x2="3.81" y2="11.43" width="0" layer="20"/>
 <text x="2.921" y="53.086" size="0.8128" layer="25">PC0</text>
@@ -163,6 +163,8 @@
 <text x="41.783" y="30.353" size="0.8128" layer="25">PF0/PE5</text>
 <text x="45.11675" y="27.432" size="0.8128" layer="25">5V</text>
 <text x="43.815" y="25.4" size="0.8128" layer="25">GND</text>
+<wire x1="3.81" y1="11.43" x2="3.81" y2="0" width="0" layer="20"/>
+<wire x1="3.81" y1="0" x2="67.31" y2="0" width="0" layer="20"/>
 </plain>
 <libraries>
 <library name="holes">
