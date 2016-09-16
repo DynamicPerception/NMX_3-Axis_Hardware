@@ -6,13 +6,13 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.01" unitdist="inch" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -3171,6 +3171,8 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <attribute name="MPN" value="SMAJ48CA" x="54.61" y="8.89" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="U$5" library="dynamic_perception" package="10118194-0001LF" value="USB_CONN" x="65.405" y="34.29" rot="R90"/>
+<element name="U$6" library="adafruit" package="FIDUCIAL_1MM" value="FIDUCIAL" x="58.42" y="16.51" rot="MR0"/>
+<element name="U$7" library="adafruit" package="FIDUCIAL_1MM" value="FIDUCIAL" x="2.54" y="60.96" rot="MR0"/>
 </elements>
 <signals>
 <signal name="GND" class="2">
@@ -3409,14 +3411,12 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <wire x1="16.18175" y1="21.15625" x2="16.51" y2="20.828" width="0.8128" layer="1"/>
 <wire x1="3.49" y1="31.67" x2="3.49" y2="30.414" width="0.3048" layer="1"/>
 <wire x1="3.49" y1="30.414" x2="2.54" y2="29.464" width="0.3048" layer="1"/>
-<wire x1="2.54" y1="29.464" x2="1.016" y2="29.464" width="0.3048" layer="1"/>
-<wire x1="1.016" y1="29.464" x2="0.762" y2="28.956" width="0.3048" layer="1"/>
-<wire x1="0.762" y1="28.956" x2="0.762" y2="23.368" width="0.3048" layer="1"/>
-<wire x1="0.762" y1="23.368" x2="1.016" y2="22.86" width="0.3048" layer="1"/>
-<wire x1="2.54" y1="22.708" x2="1.016" y2="22.86" width="0.3048" layer="1"/>
+<wire x1="2.54" y1="29.464" x2="1.397" y2="29.464" width="0.3048" layer="1"/>
+<wire x1="1.397" y1="29.464" x2="1.143" y2="29.083" width="0.3048" layer="1"/>
+<wire x1="1.143" y1="29.083" x2="1.143" y2="22.733" width="0.3048" layer="1"/>
+<wire x1="2.54" y1="22.708" x2="1.143" y2="22.733" width="0.3048" layer="1"/>
 <polygon width="0.6096" layer="1" thermals="no">
-<vertex x="1.016" y="21.336"/>
-<vertex x="1.524" y="20.828"/>
+<vertex x="1.27" y="20.828"/>
 <vertex x="4.572" y="20.828"/>
 <vertex x="6.096" y="19.812"/>
 <vertex x="10.668" y="19.812"/>
@@ -3425,8 +3425,7 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <vertex x="10.668" y="22.86"/>
 <vertex x="6.604" y="22.86"/>
 <vertex x="5.588" y="23.876"/>
-<vertex x="1.524" y="23.876"/>
-<vertex x="1.016" y="23.368"/>
+<vertex x="1.27" y="23.876"/>
 </polygon>
 <via x="10.16" y="19.812" extent="1-16" drill="0.254"/>
 <wire x1="8.636" y1="19.954" x2="8.778" y2="19.812" width="0.3048" layer="16"/>
@@ -5260,10 +5259,10 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <contactref element="R18" pad="1"/>
 <contactref element="U15" pad="4"/>
 <polygon width="0.4064" layer="1" thermals="no">
-<vertex x="1.524" y="24.638"/>
+<vertex x="1.778" y="24.638"/>
 <vertex x="7.62" y="24.638"/>
 <vertex x="7.62" y="28.956"/>
-<vertex x="1.524" y="28.956"/>
+<vertex x="1.778" y="28.956"/>
 </polygon>
 <wire x1="3.49" y1="34.37" x2="4.746" y2="34.37" width="0.3048" layer="1"/>
 <wire x1="4.746" y1="34.37" x2="5.08" y2="34.036" width="0.3048" layer="1"/>
@@ -5357,7 +5356,7 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <signal name="N$19">
 </signal>
 <signal name="N$16">
-<polygon width="0.4064" layer="16" pour="cutout">
+<polygon width="0.4064" layer="16">
 <vertex x="56" y="1"/>
 <vertex x="67" y="1"/>
 <vertex x="67" y="6"/>

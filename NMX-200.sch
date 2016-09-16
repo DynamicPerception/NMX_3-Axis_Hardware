@@ -15938,6 +15938,8 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <attribute name="MPN" value="SMAJ48CA"/>
 </part>
 <part name="U$5" library="dynamic_perception" deviceset="USB_CONN" device=""/>
+<part name="U$6" library="adafruit" deviceset="FIDUCIAL" device=""/>
+<part name="U$7" library="adafruit" deviceset="FIDUCIAL" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -16404,6 +16406,8 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <attribute name="MPN" x="124.46" y="215.9" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="U$5" gate="G$1" x="12.7" y="134.62"/>
+<instance part="U$6" gate="G$1" x="200.66" y="175.26"/>
+<instance part="U$7" gate="G$1" x="200.66" y="167.64"/>
 </instances>
 <busses>
 </busses>
