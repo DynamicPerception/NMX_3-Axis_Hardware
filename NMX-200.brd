@@ -165,6 +165,7 @@
 <text x="43.815" y="25.4" size="0.8128" layer="25">GND</text>
 <wire x1="3.81" y1="11.43" x2="3.81" y2="0" width="0" layer="20"/>
 <wire x1="3.81" y1="0" x2="67.31" y2="0" width="0" layer="20"/>
+<text x="17.272" y="61.722" size="0.8128" layer="21">- Rev 5</text>
 </plain>
 <libraries>
 <library name="holes">
