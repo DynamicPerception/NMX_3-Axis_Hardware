@@ -2707,13 +2707,13 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="36.79825" y="26.7335" size="0.8128" layer="25" rot="R90"/>
 <attribute name="VALUE" x="35.7505" y="24.03475" size="0.8128" layer="27" rot="R90"/>
 </element>
-<element name="R3" library="resistor" package="R0402" value="180" x="37.592" y="17.272" smashed="yes" rot="MR270">
+<element name="R3" library="resistor" package="R0402" value="120" x="37.592" y="17.272" smashed="yes" rot="MR270">
 <attribute name="MPN" value="RC0402FR-07180RL" x="121.412" y="-50.038" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MF" value="Yageo" x="121.412" y="-50.038" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="36.41725" y="17.907" size="0.8128" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="37.1475" y="19.01825" size="0.8128" layer="28" rot="MR90"/>
 </element>
-<element name="R2" library="resistor" package="R0402" value="180" x="36.322" y="13.97" smashed="yes" rot="MR180">
+<element name="R2" library="resistor" package="R0402" value="120" x="36.322" y="13.97" smashed="yes" rot="MR180">
 <attribute name="MPN" value="RC0402FR-07180RL" x="99.822" y="97.79" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="Yageo" x="99.822" y="97.79" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="36.195" y="15.14475" size="0.8128" layer="26" rot="MR0"/>
@@ -2990,7 +2990,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="56.261" y="0.85725" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="51.53025" y="2.76225" size="0.8128" layer="27"/>
 </element>
-<element name="R19" library="resistor" package="R0402" value="14k" x="54.61" y="1.27" smashed="yes" rot="MR180">
+<element name="R19" library="resistor" package="R0402" value="10k" x="54.61" y="1.27" smashed="yes" rot="MR180">
 <attribute name="MPN" value="RC0402FR-0714KL" x="119.38" y="90.17" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="Yageo" x="119.38" y="90.17" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="56.29275" y="1.61925" size="0.8128" layer="26" rot="MR180"/>
@@ -3014,13 +3014,13 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="40.22725" y="27.94" size="0.8128" layer="25" rot="R90"/>
 <attribute name="VALUE" x="41.43375" y="30.5435" size="0.8128" layer="27" rot="R90"/>
 </element>
-<element name="R13" library="resistor" package="R0402" value="180" x="37.592" y="22.352" smashed="yes" rot="MR270">
+<element name="R13" library="resistor" package="R0402" value="120" x="37.592" y="22.352" smashed="yes" rot="MR270">
 <attribute name="MPN" value="RC0402FR-07180RL" x="126.492" y="-8.128" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MF" value="Yageo" x="126.492" y="-8.128" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="35.71875" y="21.3995" size="0.8128" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="37.2745" y="19.01825" size="0.8128" layer="28" rot="MR90"/>
 </element>
-<element name="R14" library="resistor" package="R0402" value="180" x="40.386" y="9.906" smashed="yes" rot="MR180">
+<element name="R14" library="resistor" package="R0402" value="120" x="40.386" y="9.906" smashed="yes" rot="MR180">
 <attribute name="MPN" value="RC0402FR-07180RL" x="74.676" y="98.806" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="Yageo" x="74.676" y="98.806" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="39.4335" y="8.73125" size="0.8128" layer="26" rot="MR180"/>

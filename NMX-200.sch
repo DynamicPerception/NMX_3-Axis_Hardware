@@ -15540,11 +15540,11 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <attribute name="MF" value="Yageo"/>
 <attribute name="MPN" value="RC0402JR-075K1L"/>
 </part>
-<part name="R3" library="resistor" deviceset="R-US_" device="R0402" value="180">
+<part name="R3" library="resistor" deviceset="R-US_" device="R0402" value="120">
 <attribute name="MF" value="Yageo"/>
 <attribute name="MPN" value="RC0402FR-07180RL"/>
 </part>
-<part name="R2" library="resistor" deviceset="R-US_" device="R0402" value="180">
+<part name="R2" library="resistor" deviceset="R-US_" device="R0402" value="120">
 <attribute name="MF" value="Yageo"/>
 <attribute name="MPN" value="RC0402FR-07180RL"/>
 </part>
@@ -15777,7 +15777,7 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <attribute name="MF" value="Lite-On Inc"/>
 <attribute name="MPN" value="LTST-S270TBKT"/>
 </part>
-<part name="R19" library="resistor" deviceset="R-US_" device="R0402" value="14k">
+<part name="R19" library="resistor" deviceset="R-US_" device="R0402" value="10k">
 <attribute name="MF" value="Yageo"/>
 <attribute name="MPN" value="RC0402FR-0714KL"/>
 </part>
@@ -15798,11 +15798,11 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <attribute name="MF" value="Yageo"/>
 <attribute name="MPN" value="RC0402JR-075K1L"/>
 </part>
-<part name="R13" library="resistor" deviceset="R-US_" device="R0402" value="180">
+<part name="R13" library="resistor" deviceset="R-US_" device="R0402" value="120">
 <attribute name="MF" value="Yageo"/>
 <attribute name="MPN" value="RC0402FR-07180RL"/>
 </part>
-<part name="R14" library="resistor" deviceset="R-US_" device="R0402" value="180">
+<part name="R14" library="resistor" deviceset="R-US_" device="R0402" value="120">
 <attribute name="MF" value="Yageo"/>
 <attribute name="MPN" value="RC0402FR-07180RL"/>
 </part>

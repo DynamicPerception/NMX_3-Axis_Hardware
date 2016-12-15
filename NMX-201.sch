@@ -11068,7 +11068,7 @@ http://www.copal-electronics.com</description>
 </part>
 <part name="GND35" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND36" library="SparkFun" deviceset="GND" device=""/>
-<part name="R5" library="resistor" deviceset="R-US_" device="R0402_B" value="20k">
+<part name="R5" library="resistor" deviceset="R-US_" device="R0402_B" value="10k">
 <attribute name="MF" value="Yageo"/>
 <attribute name="MPN" value="RC0402FR-0720KL"/>
 </part>
@@ -11131,7 +11131,7 @@ http://www.copal-electronics.com</description>
 </part>
 <part name="GND6" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND7" library="SparkFun" deviceset="GND" device=""/>
-<part name="R9" library="resistor" deviceset="R-US_" device="R0402_B" value="20k">
+<part name="R9" library="resistor" deviceset="R-US_" device="R0402_B" value="10k">
 <attribute name="MF" value="Yageo"/>
 <attribute name="MPN" value="RC0402FR-0720KL"/>
 </part>
@@ -11189,7 +11189,7 @@ http://www.copal-electronics.com</description>
 </part>
 <part name="GND15" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND16" library="SparkFun" deviceset="GND" device=""/>
-<part name="R14" library="resistor" deviceset="R-US_" device="R0402_B" value="20k">
+<part name="R14" library="resistor" deviceset="R-US_" device="R0402_B" value="10k">
 <attribute name="MF" value="Yageo"/>
 <attribute name="MPN" value="RC0402FR-0720KL"/>
 </part>
@@ -11261,15 +11261,15 @@ http://www.copal-electronics.com</description>
 <attribute name="MF" value="OSRAM Opto Semiconductors Inc"/>
 <attribute name="MPN" value="LB Q39G-L2N2-35-1"/>
 </part>
-<part name="R16" library="resistor" deviceset="R-US_" device="R0402_B" value="14k">
+<part name="R16" library="resistor" deviceset="R-US_" device="R0402_B" value="10k">
 <attribute name="MF" value="Yageo"/>
 <attribute name="MPN" value="RC0402FR-0714KL"/>
 </part>
-<part name="R17" library="resistor" deviceset="R-US_" device="R0402_B" value="14k">
+<part name="R17" library="resistor" deviceset="R-US_" device="R0402_B" value="10k">
 <attribute name="MF" value="Yageo"/>
 <attribute name="MPN" value="RC0402FR-0714KL"/>
 </part>
-<part name="R18" library="resistor" deviceset="R-US_" device="R0402_B" value="14k">
+<part name="R18" library="resistor" deviceset="R-US_" device="R0402_B" value="10k">
 <attribute name="MF" value="Yageo"/>
 <attribute name="MPN" value="RC0402FR-0714KL"/>
 </part>
