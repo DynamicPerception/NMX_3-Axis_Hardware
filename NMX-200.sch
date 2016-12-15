@@ -17210,7 +17210,11 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <segment>
 <pinref part="IC1" gate="G$1" pin="XTAL1"/>
 <pinref part="U9" gate="G$1" pin="3"/>
-<wire x1="299.72" y1="220.98" x2="266.7" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="299.72" y1="220.98" x2="276.86" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="276.86" y1="220.98" x2="276.86" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="276.86" y1="226.06" x2="270.002" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="270.002" y1="226.06" x2="270.002" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="270.002" y1="220.98" x2="266.7" y2="220.98" width="0.1524" layer="91"/>
 <pinref part="C9" gate="G$1" pin="1"/>
 <wire x1="261.62" y1="220.98" x2="266.7" y2="220.98" width="0.1524" layer="91"/>
 <junction x="266.7" y="220.98"/>
@@ -17220,9 +17224,11 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <segment>
 <pinref part="IC1" gate="G$1" pin="XTAL2"/>
 <wire x1="299.72" y1="223.52" x2="279.4" y2="223.52" width="0.1524" layer="91"/>
-<wire x1="279.4" y1="223.52" x2="279.4" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="223.52" x2="279.4" y2="228.6" width="0.1524" layer="91"/>
 <pinref part="U9" gate="G$1" pin="1"/>
-<wire x1="266.7" y1="236.22" x2="279.4" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="266.7" y1="236.22" x2="270.002" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="270.002" y1="236.22" x2="270.002" y2="228.6" width="0.1524" layer="91"/>
+<wire x1="270.002" y1="228.6" x2="279.4" y2="228.6" width="0.1524" layer="91"/>
 <pinref part="C8" gate="G$1" pin="1"/>
 <wire x1="266.7" y1="236.22" x2="261.62" y2="236.22" width="0.1524" layer="91"/>
 <junction x="266.7" y="236.22"/>
@@ -18212,6 +18218,9 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="202,1,213.36,12.7,U12,BP,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>
