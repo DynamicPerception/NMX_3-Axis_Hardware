@@ -9,11 +9,11 @@
 <grid distance="0.01" unitdist="inch" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -2523,7 +2523,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <clearance class="5" value="0.1524"/>
 </class>
 </classes>
-<designrules name="OSHPark-4layer">
+<designrules name="OSHPark-4layer *">
 <description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 Die Standard-Design-Rules sind so gewählt, dass sie für 
@@ -2587,7 +2587,7 @@ Please make sure your boards conform to these design rules.</description>
 <param name="mlMaxStopFrame" value="2.5mil"/>
 <param name="mlMinCreamFrame" value="0mil"/>
 <param name="mlMaxCreamFrame" value="0mil"/>
-<param name="mlViaStopLimit" value="0mil"/>
+<param name="mlViaStopLimit" value="11mil"/>
 <param name="srRoundness" value="0"/>
 <param name="srMinRoundness" value="0mil"/>
 <param name="srMaxRoundness" value="0mil"/>
@@ -3449,16 +3449,15 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="17.638" y1="23.368" x2="17.638" y2="25.258" width="0.635" layer="1"/>
 <wire x1="17.638" y1="25.258" x2="18.288" y2="25.908" width="0.635" layer="1"/>
 <wire x1="18.288" y1="25.908" x2="21.468" y2="25.908" width="0.635" layer="1"/>
-<wire x1="4.064" y1="22.494" x2="4.064" y2="23.114" width="0.4064" layer="16"/>
-<via x="4.064" y="23.114" extent="1-16" drill="0.254"/>
+<wire x1="4.064" y1="22.494" x2="4.064" y2="23.368" width="0.4064" layer="16"/>
+<via x="4.064" y="23.368" extent="1-16" drill="0.254"/>
 <wire x1="7.493" y1="21.188" x2="7.493" y2="19.939" width="0.4064" layer="1"/>
 <wire x1="7.493" y1="19.939" x2="7.366" y2="19.812" width="0.4064" layer="1"/>
 <wire x1="7.366" y1="19.812" x2="5.842" y2="19.812" width="0.4064" layer="1"/>
 <wire x1="5.842" y1="19.812" x2="4.826" y2="20.828" width="0.4064" layer="1"/>
 <wire x1="4.826" y1="20.828" x2="4.826" y2="23.114" width="0.4064" layer="1"/>
 <wire x1="4.826" y1="23.114" x2="5.08" y2="23.368" width="0.4064" layer="1"/>
-<wire x1="5.08" y1="23.368" x2="4.318" y2="23.368" width="0.4064" layer="1"/>
-<wire x1="4.318" y1="23.368" x2="4.064" y2="23.114" width="0.4064" layer="1"/>
+<wire x1="5.08" y1="23.368" x2="4.064" y2="23.368" width="0.4064" layer="1"/>
 </signal>
 <signal name="OK_SHT">
 <contactref element="R2" pad="1"/>
@@ -5381,6 +5380,7 @@ Please make sure your boards conform to these design rules.</description>
 <errors>
 <approved hash="18,29,aef93f5bccdb5d79"/>
 <approved hash="18,29,aa87682d8fbd4d17"/>
+<approved hash="18,30,b87c0b305d31ee7d"/>
 <approved hash="6,1,437446301a301f74"/>
 <approved hash="6,1,724b72787e787e4b"/>
 </errors>
