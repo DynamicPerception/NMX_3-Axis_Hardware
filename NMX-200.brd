@@ -153,8 +153,8 @@
 <text x="7.9375" y="25.4" size="0.8128" layer="25">12V</text>
 <text x="44.60875" y="52.832" size="0.8128" layer="25">PE0</text>
 <text x="44.73575" y="50.419" size="0.8128" layer="25">PE1</text>
-<text x="44.60875" y="48.26" size="0.8128" layer="25">PF1</text>
-<text x="44.60875" y="45.72" size="0.8128" layer="25">PF2</text>
+<text x="44.60875" y="48.26" size="0.8128" layer="25">PE2</text>
+<text x="44.60875" y="45.72" size="0.8128" layer="25">PB7</text>
 <text x="44.60875" y="43.18" size="0.8128" layer="25">PF3</text>
 <text x="44.60875" y="39.84625" size="0.8128" layer="25">PF4</text>
 <text x="44.60875" y="38.1" size="0.8128" layer="25">PF5</text>
