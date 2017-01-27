@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -599,41 +599,6 @@
 <wire x1="-3.5" y1="-1.8" x2="0" y2="-1.8" width="0.127" layer="21"/>
 <text x="0" y="6.35" size="0.8128" layer="25" font="vector">&gt;NAME</text>
 </package>
-<package name="500075-1517">
-<pad name="D+" x="0" y="-1.3" drill="0.7"/>
-<pad name="ID" x="0.8" y="1.3" drill="0.7"/>
-<pad name="GND" x="1.6" y="-1.3" drill="0.7"/>
-<pad name="D-" x="-0.8" y="1.3" drill="0.7"/>
-<pad name="5V" x="-1.6" y="-1.3" drill="0.7"/>
-<wire x1="-3.325" y1="-0.875" x2="-3.325" y2="0.875" width="0.127" layer="46"/>
-<wire x1="-3.325" y1="0.875" x2="-3.975" y2="0.875" width="0.127" layer="46" curve="180"/>
-<wire x1="-3.975" y1="-0.875" x2="-3.975" y2="0.875" width="0.127" layer="46"/>
-<wire x1="-3.325" y1="-0.875" x2="-3.975" y2="-0.875" width="0.127" layer="46" curve="-180"/>
-<wire x1="3.975" y1="-0.875" x2="3.975" y2="0.875" width="0.127" layer="46"/>
-<wire x1="3.975" y1="0.875" x2="3.325" y2="0.875" width="0.127" layer="46" curve="180"/>
-<wire x1="3.325" y1="-0.875" x2="3.325" y2="0.875" width="0.127" layer="46"/>
-<wire x1="3.975" y1="-0.875" x2="3.325" y2="-0.875" width="0.127" layer="46" curve="-180"/>
-<smd name="P$1" x="-3.65" y="0" dx="3.9" dy="1.4" layer="1" roundness="100" rot="R90"/>
-<smd name="P$2" x="3.65" y="0" dx="3.9" dy="1.4" layer="1" roundness="100" rot="R90"/>
-<smd name="P$3" x="-3.65" y="0" dx="3.9" dy="1.4" layer="16" roundness="100" rot="R90"/>
-<smd name="P$4" x="3.65" y="0" dx="3.9" dy="1.4" layer="16" roundness="100" rot="R90"/>
-<wire x1="-3.85" y1="2.4" x2="3.85" y2="2.4" width="0.127" layer="21"/>
-<wire x1="-3.85" y1="-2.3" x2="3.85" y2="-2.3" width="0.127" layer="21"/>
-<text x="-4" y="3" size="0.8128" layer="25" font="vector">&gt;NAME</text>
-</package>
-<package name="10118193-0001LF">
-<smd name="3" x="0" y="2.54" dx="0.4" dy="1.35" layer="1" rot="R180"/>
-<smd name="4" x="0.65" y="2.54" dx="0.4" dy="1.35" layer="1" rot="R180"/>
-<smd name="2" x="-0.65" y="2.54" dx="0.4" dy="1.35" layer="1" rot="R180"/>
-<smd name="1" x="-1.3" y="2.54" dx="0.4" dy="1.35" layer="1" rot="R180"/>
-<smd name="5" x="1.3" y="2.54" dx="0.4" dy="1.35" layer="1" rot="R180"/>
-<smd name="S3" x="-3.2" y="2.54" dx="1.4" dy="1.6" layer="1" rot="R90"/>
-<smd name="S4" x="3.2" y="2.54" dx="1.4" dy="1.6" layer="1" rot="R90"/>
-<pad name="S2" x="3.3" y="-0.135" drill="0.9" shape="long" rot="R180"/>
-<pad name="S1" x="-3.3" y="-0.135" drill="0.9" shape="long" rot="R180"/>
-<wire x1="-4.125" y1="-1.585" x2="4.125" y2="-1.585" width="0.127" layer="21"/>
-<text x="-4" y="3.54" size="0.8128" layer="25" font="vector">&gt;NAME</text>
-</package>
 </packages>
 <symbols>
 <symbol name="RJ_CONNECTOR_DOUBLE">
@@ -695,20 +660,6 @@
 <text x="2.54" y="-2.54" size="0.8128" layer="97" font="vector">T</text>
 <text x="2.54" y="0" size="0.8128" layer="97" font="vector">R</text>
 <text x="2.54" y="2.54" size="0.8128" layer="97" font="vector">S</text>
-</symbol>
-<symbol name="USB_5PIN">
-<pin name="5V" x="5.08" y="5.08" visible="pin" length="short" rot="R180"/>
-<pin name="D-" x="5.08" y="2.54" visible="pin" length="short" rot="R180"/>
-<pin name="D+" x="5.08" y="0" visible="pin" length="short" rot="R180"/>
-<pin name="GND" x="5.08" y="-5.08" visible="pin" length="short" rot="R180"/>
-<text x="-5.08" y="-2.54" size="1.778" layer="97" rot="R90">USB</text>
-<wire x1="2.54" y1="7.62" x2="2.54" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="7.62" x2="2.54" y2="7.62" width="0.254" layer="94"/>
-<text x="-7.62" y="10.16" size="0.8128" layer="95" font="vector">&gt;NAME</text>
-<text x="-7.62" y="-10.16" size="0.8128" layer="96" font="vector">&gt;VALUE</text>
-<pin name="ID" x="5.08" y="-2.54" visible="pin" length="short" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -782,37 +733,6 @@
 <connect gate="G$1" pin="R" pad="2"/>
 <connect gate="G$1" pin="S" pad="1"/>
 <connect gate="G$1" pin="T" pad="5"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="USB" prefix="J" uservalue="yes">
-<gates>
-<gate name="G$1" symbol="USB_5PIN" x="2.54" y="0"/>
-</gates>
-<devices>
-<device name="500075-1517" package="500075-1517">
-<connects>
-<connect gate="G$1" pin="5V" pad="5V"/>
-<connect gate="G$1" pin="D+" pad="D+"/>
-<connect gate="G$1" pin="D-" pad="D-"/>
-<connect gate="G$1" pin="GND" pad="GND P$1 P$2 P$3 P$4"/>
-<connect gate="G$1" pin="ID" pad="ID"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="10118193-0001LF" package="10118193-0001LF">
-<connects>
-<connect gate="G$1" pin="5V" pad="1"/>
-<connect gate="G$1" pin="D+" pad="3"/>
-<connect gate="G$1" pin="D-" pad="2"/>
-<connect gate="G$1" pin="GND" pad="5 S1 S2 S3 S4"/>
-<connect gate="G$1" pin="ID" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6090,15 +6010,18 @@ Updated from atml.lbr 17.01.2005 alf@cadsoft.de</description>
 </package>
 <package name="DC_JACK_KLDX">
 <wire x1="4.5" y1="7.6" x2="2.4" y2="7.6" width="0.2032" layer="21"/>
+<wire x1="4.5" y1="-7.6" x2="-4.5" y2="-7.6" width="0.2032" layer="51"/>
+<wire x1="4.5" y1="-7.6" x2="4.5" y2="-3.65" width="0.2032" layer="21"/>
 <wire x1="4.5" y1="-3.65" x2="4.5" y2="1.53" width="0.2032" layer="21"/>
 <wire x1="4.5" y1="7.6" x2="4.5" y2="6.23" width="0.2032" layer="21"/>
+<wire x1="-4.5" y1="-7.6" x2="-4.5" y2="-3.65" width="0.2032" layer="21"/>
 <wire x1="-4.5" y1="-3.65" x2="-4.5" y2="7.6" width="0.2032" layer="21"/>
 <wire x1="-4.5" y1="7.6" x2="-2.4" y2="7.6" width="0.2032" layer="21"/>
-<pad name="GND" x="0" y="0.85" drill="2.5" diameter="4.318"/>
-<pad name="GNDBREAK" x="4.7" y="3.9" drill="2.5" rot="R90"/>
-<pad name="PWR" x="0" y="6.9" drill="3"/>
-<text x="-5.08" y="3.39" size="0.8128" layer="25" font="vector" rot="R90">&gt;NAME</text>
 <wire x1="4.5" y1="-3.65" x2="-4.5" y2="-3.65" width="0.127" layer="21"/>
+<pad name="GND" x="0" y="0.85" drill="2.6" diameter="4.318"/>
+<pad name="GNDBREAK" x="4.7" y="3.9" drill="2.6" rot="R90"/>
+<pad name="PWR" x="0" y="6.9" drill="3.1"/>
+<text x="-5.08" y="3.39" size="0.8128" layer="25" font="vector" rot="R90">&gt;NAME</text>
 </package>
 <package name="6-SOT">
 <wire x1="2.1825" y1="1.5" x2="2.1825" y2="-1.5" width="0.127" layer="21"/>
@@ -15446,6 +15369,148 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="dynamic_perception">
+<packages>
+<package name="10118194-0001LF">
+<smd name="P$3" x="0" y="3.03" dx="1.75" dy="0.4" layer="1" rot="R90"/>
+<smd name="P$2" x="-0.65" y="3.03" dx="1.75" dy="0.4" layer="1" rot="R90"/>
+<smd name="P$1" x="-1.3" y="3.03" dx="1.75" dy="0.4" layer="1" rot="R90"/>
+<smd name="P$4" x="0.65" y="3.03" dx="1.75" dy="0.4" layer="1" rot="R90"/>
+<smd name="P$5" x="1.3" y="3.03" dx="1.75" dy="0.4" layer="1" rot="R90"/>
+<smd name="P$10" x="0.9625" y="-0.25" dx="1.425" dy="2.5" layer="1" rot="R180"/>
+<smd name="P$11" x="-0.9625" y="-0.25" dx="1.425" dy="2.5" layer="1" rot="R180"/>
+<polygon width="0.254" layer="1">
+<vertex x="-2.1258" y="-1.0492"/>
+<vertex x="-2.1258" y="1.9992"/>
+<vertex x="-3.8492" y="1.9992"/>
+<vertex x="-3.8492" y="1.3754"/>
+<vertex x="-3.3496" y="1.3754"/>
+<vertex x="-3.3496" y="-1.0492"/>
+</polygon>
+<pad name="P$9" x="-2.725" y="0" drill="1" diameter="1.4" rot="R180"/>
+<pad name="P$6" x="-2.425" y="3.03" drill="0.8" diameter="1.2"/>
+<pad name="P$7" x="2.425" y="3.03" drill="0.8" diameter="1.2" rot="R180"/>
+<polygon width="0.254" layer="1">
+<vertex x="2.1258" y="-1.0492"/>
+<vertex x="2.1258" y="1.9738"/>
+<vertex x="3.8238" y="1.9738"/>
+<vertex x="3.8238" y="1.4262"/>
+<vertex x="3.2988" y="1.4262"/>
+<vertex x="3.2988" y="-1.0492"/>
+</polygon>
+<pad name="P$8" x="2.725" y="0" drill="1" diameter="1.4"/>
+<wire x1="-3.35" y1="0.3" x2="-3.35" y2="0" width="0.127" layer="31"/>
+<wire x1="-2.1" y1="0.25" x2="-2.1" y2="0" width="0.127" layer="31"/>
+<wire x1="-4.2" y1="4.1" x2="-4.2" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="4.2" y1="-1.6" x2="4.2" y2="4.1" width="0.127" layer="21"/>
+<wire x1="4.2" y1="4.1" x2="-4.2" y2="4.1" width="0.127" layer="21"/>
+<polygon width="0.254" layer="29">
+<vertex x="-3.8608" y="2.0066"/>
+<vertex x="-2.1336" y="2.0066"/>
+<vertex x="-2.1336" y="-1.0414"/>
+<vertex x="-3.3528" y="-1.0414"/>
+<vertex x="-3.3528" y="1.3716"/>
+<vertex x="-3.8608" y="1.3716"/>
+</polygon>
+<polygon width="0.254" layer="29">
+<vertex x="2.1336" y="1.9812"/>
+<vertex x="3.8354" y="1.9812"/>
+<vertex x="3.8354" y="1.4224"/>
+<vertex x="3.302" y="1.4224"/>
+<vertex x="3.302" y="-1.0414"/>
+<vertex x="2.1336" y="-1.0414"/>
+</polygon>
+<polygon width="0.254" layer="31">
+<vertex x="-3.8608" y="2.0066"/>
+<vertex x="-2.1336" y="2.0066"/>
+<vertex x="-2.1336" y="-1.0414"/>
+<vertex x="-3.3528" y="-1.0414"/>
+<vertex x="-3.3528" y="1.3716"/>
+<vertex x="-3.8608" y="1.3716"/>
+</polygon>
+<polygon width="0.254" layer="31">
+<vertex x="2.1336" y="1.9812"/>
+<vertex x="3.8354" y="1.9812"/>
+<vertex x="3.8354" y="1.4224"/>
+<vertex x="3.302" y="1.4224"/>
+<vertex x="3.302" y="-1.0414"/>
+<vertex x="2.1336" y="-1.0414"/>
+</polygon>
+<polygon width="0.254" layer="1">
+<vertex x="-2.032" y="3.5814"/>
+<vertex x="-2.032" y="2.413"/>
+<vertex x="-3.7846" y="2.413"/>
+<vertex x="-3.7846" y="3.5814"/>
+</polygon>
+<polygon width="0.254" layer="29">
+<vertex x="-3.7846" y="3.5814"/>
+<vertex x="-2.0574" y="3.5814"/>
+<vertex x="-2.0574" y="2.413"/>
+<vertex x="-3.7846" y="2.413"/>
+</polygon>
+<polygon width="0.254" layer="31">
+<vertex x="-3.7846" y="3.5814"/>
+<vertex x="-2.032" y="3.5814"/>
+<vertex x="-2.032" y="2.413"/>
+<vertex x="-3.7846" y="2.413"/>
+</polygon>
+<polygon width="0.254" layer="1">
+<vertex x="2.0066" y="3.5814"/>
+<vertex x="3.7846" y="3.5814"/>
+<vertex x="3.7846" y="2.413"/>
+<vertex x="2.0066" y="2.413"/>
+</polygon>
+<polygon width="0.254" layer="29">
+<vertex x="2.0066" y="3.5814"/>
+<vertex x="3.7846" y="3.5814"/>
+<vertex x="3.7846" y="2.413"/>
+<vertex x="2.0066" y="2.413"/>
+</polygon>
+<polygon width="0.254" layer="31">
+<vertex x="2.0066" y="3.5814"/>
+<vertex x="3.7846" y="3.5814"/>
+<vertex x="3.7846" y="2.413"/>
+<vertex x="2.0066" y="2.413"/>
+</polygon>
+</package>
+</packages>
+<symbols>
+<symbol name="USB_MICRO-B_CON">
+<pin name="+5V" x="12.7" y="5.08" length="middle" rot="R180"/>
+<pin name="D-" x="12.7" y="2.54" length="middle" rot="R180"/>
+<pin name="D+" x="12.7" y="0" length="middle" rot="R180"/>
+<pin name="ID" x="12.7" y="-2.54" length="middle" rot="R180"/>
+<pin name="GND" x="12.7" y="-5.08" length="middle" rot="R180"/>
+<wire x1="7.62" y1="7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
+<text x="-7.62" y="8.89" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="USB_CONN">
+<gates>
+<gate name="G$1" symbol="USB_MICRO-B_CON" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="10118194-0001LF">
+<connects>
+<connect gate="G$1" pin="+5V" pad="P$1"/>
+<connect gate="G$1" pin="D+" pad="P$3"/>
+<connect gate="G$1" pin="D-" pad="P$2"/>
+<connect gate="G$1" pin="GND" pad="P$5"/>
+<connect gate="G$1" pin="ID" pad="P$4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -15455,10 +15520,10 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <class number="0" name="default" width="0.2032" drill="0.254">
 <clearance class="0" value="0.1524"/>
 </class>
-<class number="1" name="vcc" width="0.635" drill="0.254">
+<class number="1" name="vcc" width="0.6096" drill="0.254">
 <clearance class="1" value="0.1524"/>
 </class>
-<class number="2" name="gnd" width="0.635" drill="0.254">
+<class number="2" name="gnd" width="0.3048" drill="0.254">
 <clearance class="2" value="0.1524"/>
 </class>
 <class number="3" name="vccControllers" width="0.3048" drill="0.254">
@@ -15478,11 +15543,11 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <attribute name="MF" value="Yageo"/>
 <attribute name="MPN" value="RC0402JR-075K1L"/>
 </part>
-<part name="R3" library="resistor" deviceset="R-US_" device="R0402" value="180">
+<part name="R3" library="resistor" deviceset="R-US_" device="R0402" value="120">
 <attribute name="MF" value="Yageo"/>
 <attribute name="MPN" value="RC0402FR-07180RL"/>
 </part>
-<part name="R2" library="resistor" deviceset="R-US_" device="R0402" value="180">
+<part name="R2" library="resistor" deviceset="R-US_" device="R0402" value="120">
 <attribute name="MF" value="Yageo"/>
 <attribute name="MPN" value="RC0402FR-07180RL"/>
 </part>
@@ -15626,10 +15691,6 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <part name="GND5" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND6" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND8" library="SparkFun" deviceset="GND" device=""/>
-<part name="J2" library="PP_Connectors" deviceset="USB" device="10118193-0001LF" value="10118193-0001LF">
-<attribute name="MF" value="FCI"/>
-<attribute name="MPN" value="10118193-0001LF"/>
-</part>
 <part name="R6" library="resistor" deviceset="R-US_" device="R0402" value="22">
 <attribute name="MF" value="Yageo"/>
 <attribute name="MPN" value="RC0402JR-0722RL"/>
@@ -15719,9 +15780,9 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <attribute name="MF" value="Lite-On Inc"/>
 <attribute name="MPN" value="LTST-S270TBKT"/>
 </part>
-<part name="R19" library="resistor" deviceset="R-US_" device="R0402" value="100">
+<part name="R19" library="resistor" deviceset="R-US_" device="R0402" value="10k">
 <attribute name="MF" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-07100RL"/>
+<attribute name="MPN" value="RC0402FR-0714KL"/>
 </part>
 <part name="GND18" library="SparkFun" deviceset="GND" device=""/>
 <part name="R21" library="resistor" deviceset="R-US_" device="R0402" value="10k">
@@ -15740,11 +15801,11 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <attribute name="MF" value="Yageo"/>
 <attribute name="MPN" value="RC0402JR-075K1L"/>
 </part>
-<part name="R13" library="resistor" deviceset="R-US_" device="R0402" value="180">
+<part name="R13" library="resistor" deviceset="R-US_" device="R0402" value="120">
 <attribute name="MF" value="Yageo"/>
 <attribute name="MPN" value="RC0402FR-07180RL"/>
 </part>
-<part name="R14" library="resistor" deviceset="R-US_" device="R0402" value="180">
+<part name="R14" library="resistor" deviceset="R-US_" device="R0402" value="120">
 <attribute name="MF" value="Yageo"/>
 <attribute name="MPN" value="RC0402FR-07180RL"/>
 </part>
@@ -15831,11 +15892,6 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <attribute name="MF" value="Taiyo Yuden"/>
 <attribute name="MPN" value="TMK105BJ104KV-F"/>
 </part>
-<part name="IC2" library="at90usb" deviceset="AT90USB1287-*" device="MU" value="AT90USB1287-MU">
-<attribute name="MF" value="Atmel"/>
-<attribute name="MPN" value="AT90USB1287-AU"/>
-</part>
-<part name="GND36" library="SparkFun" deviceset="GND" device=""/>
 <part name="U$2" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="S"/>
 <part name="U$1" library="QS_Components" deviceset="DP_LOGO" device="MICRO"/>
 <part name="T3" library="transistor" deviceset="*-NPN-" device="SOT23-BEC" technology="BCW60" value="CMPT2369">
@@ -15884,6 +15940,9 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <attribute name="MF" value="Bourns Inc"/>
 <attribute name="MPN" value="SMAJ48CA"/>
 </part>
+<part name="U$5" library="dynamic_perception" deviceset="USB_CONN" device=""/>
+<part name="U$6" library="adafruit" deviceset="FIDUCIAL" device=""/>
+<part name="U$7" library="adafruit" deviceset="FIDUCIAL" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -15909,7 +15968,6 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <wire x1="78.74" y1="213.36" x2="78.74" y2="185.42" width="0.1524" layer="94"/>
 <wire x1="66.04" y1="154.94" x2="5.08" y2="154.94" width="0.1524" layer="94"/>
 <wire x1="66.04" y1="185.42" x2="5.08" y2="185.42" width="0.1524" layer="94"/>
-<wire x1="78.74" y1="213.36" x2="5.08" y2="213.36" width="0.1524" layer="94"/>
 <text x="5.08" y="254" size="1.778" layer="94">Reverse Polarity Protection</text>
 <text x="5.08" y="210.82" size="1.778" layer="94">5V Regulator</text>
 <text x="5.08" y="182.88" size="1.778" layer="94">Generic Input/Output Connector</text>
@@ -15938,6 +15996,7 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <wire x1="187.96" y1="144.78" x2="266.7" y2="144.78" width="0.1524" layer="94"/>
 <text x="190.5" y="182.88" size="1.778" layer="94">Silkscreen Logos</text>
 <text x="190.5" y="160.02" size="1.778" layer="94">Fiducials</text>
+<text x="344.17" y="20.32" size="2.54" layer="94">Rev 5</text>
 </plain>
 <instances>
 <instance part="U4" gate="G$1" x="353.06" y="241.3"/>
@@ -16097,10 +16156,6 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <instance part="GND5" gate="1" x="132.08" y="243.84"/>
 <instance part="GND6" gate="1" x="177.8" y="121.92"/>
 <instance part="GND8" gate="1" x="30.48" y="160.02"/>
-<instance part="J2" gate="G$1" x="20.32" y="134.62">
-<attribute name="MF" x="20.32" y="134.62" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="20.32" y="134.62" size="1.778" layer="96" display="off"/>
-</instance>
 <instance part="R6" gate="G$1" x="48.26" y="139.7">
 <attribute name="MF" x="48.26" y="139.7" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="48.26" y="139.7" size="1.778" layer="96" display="off"/>
@@ -16302,11 +16357,6 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <attribute name="MF" x="127" y="22.86" size="1.778" layer="96" rot="MR180" display="off"/>
 <attribute name="MPN" x="127" y="22.86" size="1.778" layer="96" rot="MR180" display="off"/>
 </instance>
-<instance part="IC2" gate="G$1" x="459.74" y="175.26">
-<attribute name="MF" x="459.74" y="175.26" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="459.74" y="175.26" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="GND36" gate="1" x="416.56" y="198.12"/>
 <instance part="U$2" gate="G$1" x="226.06" y="167.64"/>
 <instance part="U$1" gate="G$1" x="226.06" y="149.86"/>
 <instance part="T3" gate="G$1" x="213.36" y="119.38">
@@ -16357,6 +16407,9 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <attribute name="MF" x="124.46" y="215.9" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="124.46" y="215.9" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
+<instance part="U$5" gate="G$1" x="12.7" y="134.62"/>
+<instance part="U$6" gate="G$1" x="200.66" y="175.26"/>
+<instance part="U$7" gate="G$1" x="200.66" y="167.64"/>
 </instances>
 <busses>
 </busses>
@@ -16584,11 +16637,12 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <wire x1="368.3" y1="78.74" x2="375.92" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="GND"/>
-<wire x1="25.4" y1="129.54" x2="33.02" y2="129.54" width="0.1524" layer="91"/>
 <label x="27.94" y="129.54" size="1.778" layer="95" font="vector"/>
+<wire x1="25.4" y1="129.54" x2="33.02" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="129.54" x2="33.02" y2="127" width="0.1524" layer="91"/>
 <pinref part="GND22" gate="1" pin="GND"/>
+<pinref part="U$5" gate="G$1" pin="GND"/>
+<junction x="25.4" y="129.54"/>
 </segment>
 <segment>
 <pinref part="U5" gate="G$1" pin="GND"/>
@@ -16648,26 +16702,6 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <junction x="119.38" y="10.16"/>
 </segment>
 <segment>
-<pinref part="GND36" gate="1" pin="GND"/>
-<pinref part="IC2" gate="G$1" pin="GND@2"/>
-<wire x1="416.56" y1="200.66" x2="416.56" y2="203.2" width="0.1524" layer="91"/>
-<wire x1="416.56" y1="203.2" x2="426.72" y2="203.2" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="GND@1"/>
-<wire x1="426.72" y1="205.74" x2="416.56" y2="205.74" width="0.1524" layer="91"/>
-<wire x1="416.56" y1="205.74" x2="416.56" y2="203.2" width="0.1524" layer="91"/>
-<junction x="416.56" y="203.2"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="GND@3"/>
-<wire x1="426.72" y1="182.88" x2="416.56" y2="182.88" width="0.1524" layer="91"/>
-<label x="416.56" y="182.88" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="UGND"/>
-<wire x1="426.72" y1="165.1" x2="416.56" y2="165.1" width="0.1524" layer="91"/>
-<label x="416.56" y="165.1" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U14" gate="G$1" pin="2"/>
 <pinref part="GND23" gate="1" pin="GND"/>
 <wire x1="60.96" y1="63.5" x2="55.88" y2="63.5" width="0.1524" layer="91"/>
@@ -16693,7 +16727,7 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <wire x1="215.9" y1="109.22" x2="215.9" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="12V" class="1">
+<net name="12V" class="3">
 <segment>
 <wire x1="165.1" y1="142.24" x2="177.8" y2="142.24" width="0.1524" layer="91"/>
 <label x="170.18" y="142.24" size="1.778" layer="95" font="vector"/>
@@ -16760,11 +16794,6 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <wire x1="365.76" y1="215.9" x2="375.92" y2="215.9" width="0.1524" layer="91"/>
 <label x="370.84" y="215.9" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="PA2(AD2)"/>
-<wire x1="492.76" y1="215.9" x2="502.92" y2="215.9" width="0.1524" layer="91"/>
-<label x="497.84" y="215.9" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="COM2" class="0">
 <segment>
@@ -16777,11 +16806,6 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <wire x1="365.76" y1="129.54" x2="373.38" y2="129.54" width="0.1524" layer="91"/>
 <label x="368.3" y="129.54" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="PE4(INT4/TOSC1)"/>
-<wire x1="492.76" y1="129.54" x2="500.38" y2="129.54" width="0.1524" layer="91"/>
-<label x="495.3" y="129.54" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="COM3" class="0">
 <segment>
@@ -16793,11 +16817,6 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <label x="368.3" y="134.62" size="1.778" layer="95"/>
 <pinref part="IC1" gate="G$1" pin="PE6(INT6/AIN0)"/>
 <wire x1="373.38" y1="134.62" x2="365.76" y2="134.62" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<wire x1="500.38" y1="134.62" x2="492.76" y2="134.62" width="0.1524" layer="91"/>
-<label x="495.3" y="134.62" size="1.778" layer="95"/>
-<pinref part="IC2" gate="G$1" pin="PE6(INT6/AIN0)"/>
 </segment>
 </net>
 <net name="CCO" class="0">
@@ -16860,23 +16879,12 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <wire x1="299.72" y1="190.5" x2="299.72" y2="187.96" width="0.1524" layer="91"/>
 <label x="289.56" y="190.5" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="AREF"/>
-<wire x1="416.56" y1="190.5" x2="426.72" y2="190.5" width="0.1524" layer="91"/>
-<wire x1="426.72" y1="190.5" x2="426.72" y2="187.96" width="0.1524" layer="91"/>
-<label x="416.56" y="190.5" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="PB5" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="PB5(PCINT5/OC.1A)"/>
 <wire x1="365.76" y1="200.66" x2="375.92" y2="200.66" width="0.1524" layer="91"/>
 <label x="370.84" y="200.66" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="PB5(PCINT5/OC.1A)"/>
-<wire x1="492.76" y1="200.66" x2="502.92" y2="200.66" width="0.1524" layer="91"/>
-<label x="497.84" y="200.66" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PC2" class="0">
@@ -16890,11 +16898,6 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <label x="142.24" y="228.6" size="1.778" layer="95"/>
 <pinref part="JP4" gate="G$1" pin="3"/>
 </segment>
-<segment>
-<wire x1="492.76" y1="170.18" x2="502.92" y2="170.18" width="0.1524" layer="91"/>
-<label x="497.84" y="170.18" size="1.778" layer="95"/>
-<pinref part="IC2" gate="G$1" pin="PC2(A10)"/>
-</segment>
 </net>
 <net name="PC1" class="0">
 <segment>
@@ -16906,11 +16909,6 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <wire x1="144.78" y1="231.14" x2="154.94" y2="231.14" width="0.1524" layer="91"/>
 <label x="142.24" y="231.14" size="1.778" layer="95"/>
 <pinref part="JP4" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<wire x1="492.76" y1="167.64" x2="502.92" y2="167.64" width="0.1524" layer="91"/>
-<label x="497.84" y="167.64" size="1.778" layer="95"/>
-<pinref part="IC2" gate="G$1" pin="PC1(A9)"/>
 </segment>
 </net>
 <net name="PC0" class="0">
@@ -16924,11 +16922,6 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <label x="142.24" y="233.68" size="1.778" layer="95"/>
 <pinref part="JP4" gate="G$1" pin="1"/>
 </segment>
-<segment>
-<wire x1="492.76" y1="165.1" x2="502.92" y2="165.1" width="0.1524" layer="91"/>
-<label x="497.84" y="165.1" size="1.778" layer="95"/>
-<pinref part="IC2" gate="G$1" pin="PC0(A8)"/>
-</segment>
 </net>
 <net name="RXA" class="0">
 <segment>
@@ -16940,11 +16933,6 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <pinref part="U7" gate="E1" pin="R"/>
 <wire x1="137.16" y1="172.72" x2="127" y2="172.72" width="0.1524" layer="91"/>
 <label x="127" y="172.72" size="1.778" layer="95" font="vector"/>
-</segment>
-<segment>
-<wire x1="492.76" y1="147.32" x2="500.38" y2="147.32" width="0.1524" layer="91"/>
-<label x="497.84" y="147.32" size="1.778" layer="95"/>
-<pinref part="IC2" gate="G$1" pin="PD2(RXD1/INT2)"/>
 </segment>
 </net>
 <net name="TXA" class="0">
@@ -16958,11 +16946,6 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <wire x1="137.16" y1="165.1" x2="127" y2="165.1" width="0.1524" layer="91"/>
 <label x="127" y="165.1" size="1.778" layer="95" font="vector"/>
 </segment>
-<segment>
-<wire x1="492.76" y1="149.86" x2="500.38" y2="149.86" width="0.1524" layer="91"/>
-<label x="497.84" y="149.86" size="1.778" layer="95"/>
-<pinref part="IC2" gate="G$1" pin="PD3(TXD1/INT3)"/>
-</segment>
 </net>
 <net name="RST" class="0">
 <segment>
@@ -16975,11 +16958,6 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <pinref part="IC1" gate="G$1" pin="RESET"/>
 <wire x1="292.1" y1="228.6" x2="299.72" y2="228.6" width="0.1524" layer="91"/>
 <label x="292.1" y="228.6" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="RESET"/>
-<wire x1="416.56" y1="228.6" x2="426.72" y2="228.6" width="0.1524" layer="91"/>
-<label x="416.56" y="228.6" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SHT" class="0">
@@ -16998,11 +16976,6 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <label x="370.84" y="190.5" size="1.778" layer="95"/>
 <pinref part="IC1" gate="G$1" pin="PB1(PCINT1/SCK)"/>
 </segment>
-<segment>
-<wire x1="502.92" y1="190.5" x2="492.76" y2="190.5" width="0.1524" layer="91"/>
-<label x="497.84" y="190.5" size="1.778" layer="95"/>
-<pinref part="IC2" gate="G$1" pin="PB1(PCINT1/SCK)"/>
-</segment>
 </net>
 <net name="FOC" class="0">
 <segment>
@@ -17019,11 +16992,6 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <wire x1="365.76" y1="195.58" x2="375.92" y2="195.58" width="0.1524" layer="91"/>
 <label x="370.84" y="195.58" size="1.778" layer="95"/>
 <pinref part="IC1" gate="G$1" pin="PB3(PDO/PCINT3/MISO)"/>
-</segment>
-<segment>
-<wire x1="492.76" y1="195.58" x2="502.92" y2="195.58" width="0.1524" layer="91"/>
-<label x="497.84" y="195.58" size="1.778" layer="95"/>
-<pinref part="IC2" gate="G$1" pin="PB3(PDO/PCINT3/MISO)"/>
 </segment>
 </net>
 <net name="N$17" class="0">
@@ -17049,11 +17017,6 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <wire x1="365.76" y1="152.4" x2="373.38" y2="152.4" width="0.1524" layer="91"/>
 <label x="370.84" y="152.4" size="1.778" layer="95"/>
 <pinref part="IC1" gate="G$1" pin="PD4(ICP1)"/>
-</segment>
-<segment>
-<wire x1="492.76" y1="152.4" x2="500.38" y2="152.4" width="0.1524" layer="91"/>
-<label x="497.84" y="152.4" size="1.778" layer="95"/>
-<pinref part="IC2" gate="G$1" pin="PD4(ICP1)"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -17244,45 +17207,36 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <label x="142.24" y="215.9" size="1.778" layer="95"/>
 <pinref part="JP4" gate="G$1" pin="8"/>
 </segment>
-<segment>
-<wire x1="492.76" y1="157.48" x2="500.38" y2="157.48" width="0.1524" layer="91"/>
-<label x="497.84" y="157.48" size="1.778" layer="95"/>
-<pinref part="IC2" gate="G$1" pin="PD6(T1)"/>
-</segment>
 </net>
 <net name="XTAL1" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="XTAL1"/>
 <pinref part="U9" gate="G$1" pin="3"/>
-<wire x1="299.72" y1="220.98" x2="266.7" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="299.72" y1="220.98" x2="276.86" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="276.86" y1="220.98" x2="276.86" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="276.86" y1="226.06" x2="270.002" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="270.002" y1="226.06" x2="270.002" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="270.002" y1="220.98" x2="266.7" y2="220.98" width="0.1524" layer="91"/>
 <pinref part="C9" gate="G$1" pin="1"/>
 <wire x1="261.62" y1="220.98" x2="266.7" y2="220.98" width="0.1524" layer="91"/>
 <junction x="266.7" y="220.98"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="XTAL1"/>
-<wire x1="426.72" y1="220.98" x2="416.56" y2="220.98" width="0.1524" layer="91"/>
-<label x="416.56" y="220.98" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="XTAL2" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="XTAL2"/>
 <wire x1="299.72" y1="223.52" x2="279.4" y2="223.52" width="0.1524" layer="91"/>
-<wire x1="279.4" y1="223.52" x2="279.4" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="223.52" x2="279.4" y2="228.6" width="0.1524" layer="91"/>
 <pinref part="U9" gate="G$1" pin="1"/>
-<wire x1="266.7" y1="236.22" x2="279.4" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="266.7" y1="236.22" x2="270.002" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="270.002" y1="236.22" x2="270.002" y2="228.6" width="0.1524" layer="91"/>
+<wire x1="270.002" y1="228.6" x2="279.4" y2="228.6" width="0.1524" layer="91"/>
 <pinref part="C8" gate="G$1" pin="1"/>
 <wire x1="266.7" y1="236.22" x2="261.62" y2="236.22" width="0.1524" layer="91"/>
 <junction x="266.7" y="236.22"/>
 </segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="XTAL2"/>
-<wire x1="426.72" y1="223.52" x2="416.56" y2="223.52" width="0.1524" layer="91"/>
-<label x="416.56" y="223.52" size="1.778" layer="95"/>
-</segment>
 </net>
-<net name="USB+" class="0">
+<net name="USB_P" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="D+"/>
 <wire x1="299.72" y1="175.26" x2="289.56" y2="175.26" width="0.1524" layer="91"/>
@@ -17293,13 +17247,8 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <wire x1="53.34" y1="132.08" x2="60.96" y2="132.08" width="0.1524" layer="91"/>
 <label x="55.88" y="132.08" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="D+"/>
-<wire x1="426.72" y1="175.26" x2="416.56" y2="175.26" width="0.1524" layer="91"/>
-<label x="416.56" y="175.26" size="1.778" layer="95"/>
-</segment>
 </net>
-<net name="USB-" class="0">
+<net name="USB_N" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="D-"/>
 <wire x1="299.72" y1="172.72" x2="289.56" y2="172.72" width="0.1524" layer="91"/>
@@ -17310,11 +17259,6 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <wire x1="53.34" y1="139.7" x2="60.96" y2="139.7" width="0.1524" layer="91"/>
 <label x="55.88" y="139.7" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="D-"/>
-<wire x1="426.72" y1="172.72" x2="416.56" y2="172.72" width="0.1524" layer="91"/>
-<label x="416.56" y="172.72" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="UCAP" class="0">
 <segment>
@@ -17324,22 +17268,12 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <wire x1="284.48" y1="160.02" x2="299.72" y2="160.02" width="0.1524" layer="91"/>
 <label x="289.56" y="160.02" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="UCAP"/>
-<wire x1="416.56" y1="160.02" x2="426.72" y2="160.02" width="0.1524" layer="91"/>
-<label x="416.56" y="160.02" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="PB6" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="PB6(PCINT6/OC.1B)"/>
 <wire x1="365.76" y1="203.2" x2="375.92" y2="203.2" width="0.1524" layer="91"/>
 <label x="370.84" y="203.2" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="PB6(PCINT6/OC.1B)"/>
-<wire x1="492.76" y1="203.2" x2="502.92" y2="203.2" width="0.1524" layer="91"/>
-<label x="497.84" y="203.2" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PB7" class="0">
@@ -17353,11 +17287,6 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <label x="167.64" y="226.06" size="1.778" layer="95"/>
 <pinref part="JP3" gate="G$1" pin="4"/>
 </segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="PB7(PCINT7/OC.0A/OC.1C)"/>
-<wire x1="492.76" y1="205.74" x2="502.92" y2="205.74" width="0.1524" layer="91"/>
-<label x="497.84" y="205.74" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="3.3V_EN" class="0">
 <segment>
@@ -17370,22 +17299,12 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <wire x1="195.58" y1="12.7" x2="185.42" y2="12.7" width="0.1524" layer="91"/>
 <label x="185.42" y="10.16" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="PA0(AD0)"/>
-<wire x1="492.76" y1="210.82" x2="502.92" y2="210.82" width="0.1524" layer="91"/>
-<label x="497.84" y="210.82" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="PA3" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="PA3(AD3)"/>
 <wire x1="365.76" y1="218.44" x2="375.92" y2="218.44" width="0.1524" layer="91"/>
 <label x="370.84" y="218.44" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="PA3(AD3)"/>
-<wire x1="492.76" y1="218.44" x2="502.92" y2="218.44" width="0.1524" layer="91"/>
-<label x="497.84" y="218.44" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PA4" class="0">
@@ -17394,22 +17313,12 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <wire x1="365.76" y1="220.98" x2="375.92" y2="220.98" width="0.1524" layer="91"/>
 <label x="370.84" y="220.98" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="PA4(AD4)"/>
-<wire x1="492.76" y1="220.98" x2="502.92" y2="220.98" width="0.1524" layer="91"/>
-<label x="497.84" y="220.98" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="PA5" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="PA5(AD5)"/>
 <wire x1="365.76" y1="223.52" x2="375.92" y2="223.52" width="0.1524" layer="91"/>
 <label x="370.84" y="223.52" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="PA5(AD5)"/>
-<wire x1="492.76" y1="223.52" x2="502.92" y2="223.52" width="0.1524" layer="91"/>
-<label x="497.84" y="223.52" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PA6" class="0">
@@ -17418,22 +17327,12 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <wire x1="365.76" y1="226.06" x2="375.92" y2="226.06" width="0.1524" layer="91"/>
 <label x="370.84" y="226.06" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="PA6(AD6)"/>
-<wire x1="492.76" y1="226.06" x2="502.92" y2="226.06" width="0.1524" layer="91"/>
-<label x="497.84" y="226.06" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="PA7" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="PA7(AD7)"/>
 <wire x1="365.76" y1="228.6" x2="375.92" y2="228.6" width="0.1524" layer="91"/>
 <label x="370.84" y="228.6" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="PA7(AD7)"/>
-<wire x1="492.76" y1="228.6" x2="502.92" y2="228.6" width="0.1524" layer="91"/>
-<label x="497.84" y="228.6" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TX_5V" class="0">
@@ -17447,11 +17346,6 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <wire x1="218.44" y1="66.04" x2="231.14" y2="66.04" width="0.1524" layer="91"/>
 <label x="223.52" y="66.04" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="PC7(A15/IC.3/CLK0)"/>
-<wire x1="492.76" y1="182.88" x2="502.92" y2="182.88" width="0.1524" layer="91"/>
-<label x="497.84" y="182.88" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="PE3" class="0">
 <segment>
@@ -17460,19 +17354,15 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <label x="368.3" y="127" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="ID"/>
 <wire x1="33.02" y1="132.08" x2="25.4" y2="132.08" width="0.1524" layer="91"/>
 <label x="27.94" y="132.08" size="1.778" layer="95" font="vector"/>
+<pinref part="U$5" gate="G$1" pin="ID"/>
+<junction x="25.4" y="132.08"/>
 </segment>
 <segment>
 <wire x1="53.34" y1="111.76" x2="45.72" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="U5" gate="G$1" pin="IO3"/>
 <label x="48.26" y="111.76" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="PE3(IUID)"/>
-<wire x1="492.76" y1="127" x2="500.38" y2="127" width="0.1524" layer="91"/>
-<label x="495.3" y="127" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PE2" class="0">
@@ -17486,11 +17376,6 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <label x="167.64" y="228.6" size="1.778" layer="95"/>
 <pinref part="JP3" gate="G$1" pin="3"/>
 </segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="PE2(ALE/HWB)"/>
-<wire x1="492.76" y1="124.46" x2="500.38" y2="124.46" width="0.1524" layer="91"/>
-<label x="495.3" y="124.46" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="PE1" class="0">
 <segment>
@@ -17503,11 +17388,6 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <label x="167.64" y="231.14" size="1.778" layer="95"/>
 <pinref part="JP3" gate="G$1" pin="2"/>
 </segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="PE1(/RD)"/>
-<wire x1="492.76" y1="121.92" x2="500.38" y2="121.92" width="0.1524" layer="91"/>
-<label x="495.3" y="121.92" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="PE0" class="0">
 <segment>
@@ -17519,11 +17399,6 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <wire x1="170.18" y1="233.68" x2="177.8" y2="233.68" width="0.1524" layer="91"/>
 <label x="167.64" y="233.68" size="1.778" layer="95"/>
 <pinref part="JP3" gate="G$1" pin="1"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="PE0(/WR)"/>
-<wire x1="492.76" y1="119.38" x2="500.38" y2="119.38" width="0.1524" layer="91"/>
-<label x="495.3" y="119.38" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PF1" class="0">
@@ -17539,11 +17414,6 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <wire x1="147.32" y1="66.04" x2="154.94" y2="66.04" width="0.1524" layer="91"/>
 <junction x="147.32" y="66.04"/>
 <label x="149.86" y="66.04" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="PF1(ADC1)"/>
-<wire x1="426.72" y1="121.92" x2="416.56" y2="121.92" width="0.1524" layer="91"/>
-<label x="416.56" y="121.92" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PF2" class="0">
@@ -17564,11 +17434,6 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <junction x="127" y="25.4"/>
 <label x="137.16" y="25.4" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="PF2(ADC2)"/>
-<wire x1="426.72" y1="124.46" x2="416.56" y2="124.46" width="0.1524" layer="91"/>
-<label x="416.56" y="124.46" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="PF3" class="0">
 <segment>
@@ -17580,11 +17445,6 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <wire x1="170.18" y1="223.52" x2="177.8" y2="223.52" width="0.1524" layer="91"/>
 <label x="167.64" y="223.52" size="1.778" layer="95"/>
 <pinref part="JP3" gate="G$1" pin="5"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="PF3(ADC3)"/>
-<wire x1="426.72" y1="127" x2="416.56" y2="127" width="0.1524" layer="91"/>
-<label x="416.56" y="127" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PF4" class="0">
@@ -17598,11 +17458,6 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <label x="167.64" y="220.98" size="1.778" layer="95"/>
 <pinref part="JP3" gate="G$1" pin="6"/>
 </segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="PF4(ADC4/TCK)"/>
-<wire x1="426.72" y1="129.54" x2="416.56" y2="129.54" width="0.1524" layer="91"/>
-<label x="416.56" y="129.54" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="PF5" class="0">
 <segment>
@@ -17614,11 +17469,6 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <wire x1="170.18" y1="218.44" x2="177.8" y2="218.44" width="0.1524" layer="91"/>
 <label x="167.64" y="218.44" size="1.778" layer="95"/>
 <pinref part="JP3" gate="G$1" pin="7"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="PF5(ADC5/TMS)"/>
-<wire x1="426.72" y1="132.08" x2="416.56" y2="132.08" width="0.1524" layer="91"/>
-<label x="416.56" y="132.08" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PF6" class="0">
@@ -17632,11 +17482,6 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <label x="167.64" y="215.9" size="1.778" layer="95"/>
 <pinref part="JP3" gate="G$1" pin="8"/>
 </segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="PF6(ADC6/TDO)"/>
-<wire x1="426.72" y1="134.62" x2="416.56" y2="134.62" width="0.1524" layer="91"/>
-<label x="416.56" y="134.62" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="PF7" class="0">
 <segment>
@@ -17648,11 +17493,6 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <wire x1="170.18" y1="213.36" x2="177.8" y2="213.36" width="0.1524" layer="91"/>
 <label x="167.64" y="213.36" size="1.778" layer="95"/>
 <pinref part="JP3" gate="G$1" pin="9"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="PF7(ADC7/TDI)"/>
-<wire x1="426.72" y1="137.16" x2="416.56" y2="137.16" width="0.1524" layer="91"/>
-<label x="416.56" y="137.16" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="E-STOP" class="0">
@@ -17671,25 +17511,16 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <label x="167.64" y="210.82" size="1.778" layer="95"/>
 <pinref part="JP3" gate="G$1" pin="10"/>
 </segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="PE5(INT5/TOSC2)"/>
-<wire x1="492.76" y1="132.08" x2="500.38" y2="132.08" width="0.1524" layer="91"/>
-<label x="495.3" y="132.08" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="PF0(ADC0)"/>
-<wire x1="426.72" y1="119.38" x2="416.56" y2="119.38" width="0.1524" layer="91"/>
-<label x="416.56" y="119.38" size="1.778" layer="95"/>
-</segment>
 </net>
-<net name="D-" class="0">
+<net name="D_N" class="0">
 <segment>
-<pinref part="J2" gate="G$1" pin="D-"/>
 <label x="27.94" y="137.16" size="1.778" layer="95" font="vector"/>
-<wire x1="25.4" y1="137.16" x2="35.56" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="R6" gate="G$1" pin="1"/>
+<wire x1="25.4" y1="137.16" x2="35.56" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="139.7" x2="35.56" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="139.7" x2="35.56" y2="137.16" width="0.1524" layer="91"/>
+<pinref part="U$5" gate="G$1" pin="D-"/>
+<junction x="25.4" y="137.16"/>
 </segment>
 <segment>
 <pinref part="U5" gate="G$1" pin="IO1"/>
@@ -17697,14 +17528,15 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <label x="12.7" y="111.76" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="D+" class="0">
+<net name="D_P" class="0">
 <segment>
-<pinref part="J2" gate="G$1" pin="D+"/>
 <label x="27.94" y="134.62" size="1.778" layer="95" font="vector"/>
-<wire x1="25.4" y1="134.62" x2="35.56" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="R7" gate="G$1" pin="1"/>
+<wire x1="25.4" y1="134.62" x2="35.56" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="132.08" x2="35.56" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="132.08" x2="35.56" y2="134.62" width="0.1524" layer="91"/>
+<pinref part="U$5" gate="G$1" pin="D+"/>
+<junction x="25.4" y="134.62"/>
 </segment>
 <segment>
 <pinref part="U5" gate="G$1" pin="IO2"/>
@@ -17723,22 +17555,12 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <label x="142.24" y="220.98" size="1.778" layer="95"/>
 <pinref part="JP4" gate="G$1" pin="6"/>
 </segment>
-<segment>
-<wire x1="492.76" y1="177.8" x2="502.92" y2="177.8" width="0.1524" layer="91"/>
-<label x="497.84" y="177.8" size="1.778" layer="95"/>
-<pinref part="IC2" gate="G$1" pin="PC5(A13/OC.3B)"/>
-</segment>
 </net>
 <net name="PB4" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="PB4(PCINT4/OC.2A)"/>
 <wire x1="365.76" y1="198.12" x2="375.92" y2="198.12" width="0.1524" layer="91"/>
 <label x="370.84" y="198.12" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="PB4(PCINT4/OC.2A)"/>
-<wire x1="492.76" y1="198.12" x2="502.92" y2="198.12" width="0.1524" layer="91"/>
-<label x="497.84" y="198.12" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="R16" gate="G$1" pin="2"/>
@@ -17756,11 +17578,6 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <pinref part="U10" gate="G$1" pin="B2"/>
 <wire x1="218.44" y1="63.5" x2="231.14" y2="63.5" width="0.1524" layer="91"/>
 <label x="223.52" y="63.5" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="PC6(A14/OC.3A)"/>
-<wire x1="492.76" y1="180.34" x2="502.92" y2="180.34" width="0.1524" layer="91"/>
-<label x="497.84" y="180.34" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="5V" class="3">
@@ -17866,24 +17683,6 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <wire x1="144.78" y1="73.66" x2="144.78" y2="71.12" width="0.1524" layer="91"/>
 <junction x="144.78" y="71.12"/>
 <pinref part="C5" gate="G$1" pin="1"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="UVCC"/>
-<wire x1="426.72" y1="162.56" x2="416.56" y2="162.56" width="0.1524" layer="91"/>
-<label x="416.56" y="162.56" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="AVCC"/>
-<wire x1="416.56" y1="185.42" x2="426.72" y2="185.42" width="0.1524" layer="91"/>
-<label x="416.56" y="185.42" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="VCC@1"/>
-<wire x1="416.56" y1="213.36" x2="426.72" y2="213.36" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="VCC@2"/>
-<wire x1="426.72" y1="210.82" x2="416.56" y2="210.82" width="0.1524" layer="91"/>
-<label x="416.56" y="210.82" size="1.778" layer="95"/>
-<label x="416.56" y="213.36" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="Q1" gate="G$1" pin="S"/>
@@ -18111,11 +17910,6 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <wire x1="365.76" y1="213.36" x2="375.92" y2="213.36" width="0.1524" layer="91"/>
 <label x="370.84" y="213.36" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="PA1(AD1)"/>
-<wire x1="492.76" y1="213.36" x2="502.92" y2="213.36" width="0.1524" layer="91"/>
-<label x="497.84" y="213.36" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="PC3" class="0">
 <segment>
@@ -18127,11 +17921,6 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <wire x1="144.78" y1="226.06" x2="154.94" y2="226.06" width="0.1524" layer="91"/>
 <label x="142.24" y="226.06" size="1.778" layer="95"/>
 <pinref part="JP4" gate="G$1" pin="4"/>
-</segment>
-<segment>
-<wire x1="492.76" y1="172.72" x2="502.92" y2="172.72" width="0.1524" layer="91"/>
-<label x="497.84" y="172.72" size="1.778" layer="95"/>
-<pinref part="IC2" gate="G$1" pin="PC3(A11/T.3)"/>
 </segment>
 </net>
 <net name="PC4" class="0">
@@ -18145,11 +17934,6 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <label x="142.24" y="223.52" size="1.778" layer="95"/>
 <pinref part="JP4" gate="G$1" pin="5"/>
 </segment>
-<segment>
-<wire x1="492.76" y1="175.26" x2="502.92" y2="175.26" width="0.1524" layer="91"/>
-<label x="497.84" y="175.26" size="1.778" layer="95"/>
-<pinref part="IC2" gate="G$1" pin="PC4(A12/OC.3C)"/>
-</segment>
 </net>
 <net name="PD5" class="0">
 <segment>
@@ -18161,11 +17945,6 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <wire x1="144.78" y1="218.44" x2="154.94" y2="218.44" width="0.1524" layer="91"/>
 <label x="142.24" y="218.44" size="1.778" layer="95"/>
 <pinref part="JP4" gate="G$1" pin="7"/>
-</segment>
-<segment>
-<wire x1="492.76" y1="154.94" x2="500.38" y2="154.94" width="0.1524" layer="91"/>
-<label x="497.84" y="154.94" size="1.778" layer="95"/>
-<pinref part="IC2" gate="G$1" pin="PD5(XCK1)"/>
 </segment>
 </net>
 <net name="N$67" class="0">
@@ -18185,11 +17964,6 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <wire x1="365.76" y1="187.96" x2="375.92" y2="187.96" width="0.1524" layer="91"/>
 <label x="370.84" y="187.96" size="1.778" layer="95"/>
 <pinref part="IC1" gate="G$1" pin="PB0(SS/PCINT0)"/>
-</segment>
-<segment>
-<wire x1="492.76" y1="187.96" x2="502.92" y2="187.96" width="0.1524" layer="91"/>
-<label x="497.84" y="187.96" size="1.778" layer="95"/>
-<pinref part="IC2" gate="G$1" pin="PB0(SS/PCINT0)"/>
 </segment>
 </net>
 <net name="OK_SHT2" class="0">
@@ -18220,11 +17994,6 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <wire x1="375.92" y1="193.04" x2="365.76" y2="193.04" width="0.1524" layer="91"/>
 <label x="370.84" y="193.04" size="1.778" layer="95"/>
 <pinref part="IC1" gate="G$1" pin="PB2(PDI/PCINT2/MOSI)"/>
-</segment>
-<segment>
-<wire x1="502.92" y1="193.04" x2="492.76" y2="193.04" width="0.1524" layer="91"/>
-<label x="497.84" y="193.04" size="1.778" layer="95"/>
-<pinref part="IC2" gate="G$1" pin="PB2(PDI/PCINT2/MOSI)"/>
 </segment>
 </net>
 <net name="CST2" class="0">
@@ -18297,11 +18066,6 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <label x="125.222" y="195.834" size="1.778" layer="95" font="vector"/>
 <pinref part="U13" gate="G$1" pin="IO3"/>
 </segment>
-<segment>
-<wire x1="492.76" y1="142.24" x2="500.38" y2="142.24" width="0.1524" layer="91"/>
-<label x="497.84" y="142.24" size="1.778" layer="95"/>
-<pinref part="IC2" gate="G$1" pin="PD0(OC.0B/SCL/INT0)"/>
-</segment>
 </net>
 <net name="PD1" class="0">
 <segment>
@@ -18321,11 +18085,6 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <pinref part="U13" gate="G$1" pin="IO4"/>
 <label x="125.222" y="193.04" size="1.778" layer="95"/>
 </segment>
-<segment>
-<wire x1="492.76" y1="144.78" x2="500.38" y2="144.78" width="0.1524" layer="91"/>
-<label x="497.84" y="144.78" size="1.778" layer="95"/>
-<pinref part="IC2" gate="G$1" pin="PD1(OC.2B/SDA/INT1)"/>
-</segment>
 </net>
 <net name="PD7" class="0">
 <segment>
@@ -18337,11 +18096,6 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <wire x1="144.78" y1="213.36" x2="154.94" y2="213.36" width="0.1524" layer="91"/>
 <label x="142.24" y="213.36" size="1.778" layer="95"/>
 <pinref part="JP4" gate="G$1" pin="9"/>
-</segment>
-<segment>
-<wire x1="492.76" y1="160.02" x2="500.38" y2="160.02" width="0.1524" layer="91"/>
-<label x="497.84" y="160.02" size="1.778" layer="95"/>
-<pinref part="IC2" gate="G$1" pin="PD7(T0)"/>
 </segment>
 </net>
 <net name="5V_USB" class="3">
@@ -18356,21 +18110,17 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <label x="289.56" y="157.48" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="5V"/>
-<wire x1="25.4" y1="139.7" x2="30.48" y2="139.7" width="0.1524" layer="91"/>
 <label x="35.56" y="144.78" size="1.778" layer="95" font="vector"/>
 <pinref part="C2" gate="G$1" pin="+"/>
+<wire x1="25.4" y1="139.7" x2="30.48" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="139.7" x2="30.48" y2="142.24" width="0.1524" layer="91"/>
 <junction x="30.48" y="142.24"/>
 <wire x1="30.48" y1="142.24" x2="35.56" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="142.24" x2="35.56" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="144.78" x2="48.26" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="D3" gate="G$1" pin="A"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="VBUS"/>
-<wire x1="426.72" y1="157.48" x2="416.56" y2="157.48" width="0.1524" layer="91"/>
-<label x="416.56" y="157.48" size="1.778" layer="95"/>
+<pinref part="U$5" gate="G$1" pin="+5V"/>
+<junction x="25.4" y="139.7"/>
 </segment>
 <segment>
 <pinref part="Q1" gate="G$1" pin="D"/>
@@ -18386,7 +18136,7 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <wire x1="134.62" y1="66.04" x2="137.16" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="12V_MOT" class="1">
+<net name="12V_MOT" class="3">
 <segment>
 <wire x1="144.78" y1="208.28" x2="154.94" y2="208.28" width="0.1524" layer="91"/>
 <label x="142.24" y="208.28" size="1.778" layer="95"/>
@@ -18445,11 +18195,6 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <wire x1="365.76" y1="137.16" x2="373.38" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="492.76" y1="137.16" x2="500.38" y2="137.16" width="0.1524" layer="91"/>
-<label x="495.3" y="137.16" size="1.778" layer="95"/>
-<pinref part="IC2" gate="G$1" pin="PE7(INT7/AIN1/UVCON)"/>
-</segment>
-<segment>
 <wire x1="190.5" y1="119.38" x2="198.12" y2="119.38" width="0.1524" layer="91"/>
 <label x="190.5" y="119.38" size="1.778" layer="95"/>
 <pinref part="R22" gate="G$1" pin="1"/>
@@ -18475,6 +18220,9 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="202,1,213.36,12.7,U12,BP,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>

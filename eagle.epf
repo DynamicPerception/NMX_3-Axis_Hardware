@@ -1,19 +1,20 @@
 [Eagle]
-Version="06 05 00"
+Version="07 06 00"
 Platform="Windows"
-Serial="62191E841E-LSR-WLM-1EL"
+Serial="7420172599-LSR-WLM-1CS"
 Globals="Globals"
 Desktop="Desktop"
 
 [Globals]
 AutoSaveProject=1
+UsedLibrary="C:/Program Files/EAGLE-7.6.0/lbr/User Libraries/Dynamic Perception/DP-Passives.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="652 321 1251 720"
+Loc="0 0 1919 1017"
 State=1
 Number=0
 
 [Desktop]
-Screen="3840 1080"
+Screen="2820 1600"
 Window="Win_1"
