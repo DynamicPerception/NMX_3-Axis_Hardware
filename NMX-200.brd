@@ -880,15 +880,18 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 <package name="DC_JACK_KLDX">
 <wire x1="4.5" y1="7.6" x2="2.4" y2="7.6" width="0.2032" layer="21"/>
+<wire x1="4.5" y1="-7.6" x2="-4.5" y2="-7.6" width="0.2032" layer="51"/>
+<wire x1="4.5" y1="-7.6" x2="4.5" y2="-3.65" width="0.2032" layer="21"/>
 <wire x1="4.5" y1="-3.65" x2="4.5" y2="1.53" width="0.2032" layer="21"/>
 <wire x1="4.5" y1="7.6" x2="4.5" y2="6.23" width="0.2032" layer="21"/>
+<wire x1="-4.5" y1="-7.6" x2="-4.5" y2="-3.65" width="0.2032" layer="21"/>
 <wire x1="-4.5" y1="-3.65" x2="-4.5" y2="7.6" width="0.2032" layer="21"/>
 <wire x1="-4.5" y1="7.6" x2="-2.4" y2="7.6" width="0.2032" layer="21"/>
-<pad name="GND" x="0" y="0.85" drill="2.5" diameter="4.318"/>
-<pad name="GNDBREAK" x="4.7" y="3.9" drill="2.5" rot="R90"/>
-<pad name="PWR" x="0" y="6.9" drill="3"/>
-<text x="-5.08" y="3.39" size="0.8128" layer="25" font="vector" rot="R90">&gt;NAME</text>
 <wire x1="4.5" y1="-3.65" x2="-4.5" y2="-3.65" width="0.127" layer="21"/>
+<pad name="GND" x="0" y="0.85" drill="2.6" diameter="4.318"/>
+<pad name="GNDBREAK" x="4.7" y="3.9" drill="2.6" rot="R90"/>
+<pad name="PWR" x="0" y="6.9" drill="3.1"/>
+<text x="-5.08" y="3.39" size="0.8128" layer="25" font="vector" rot="R90">&gt;NAME</text>
 </package>
 <package name="6-SOT">
 <wire x1="2.1825" y1="1.5" x2="2.1825" y2="-1.5" width="0.127" layer="21"/>
@@ -2548,7 +2551,7 @@ Please make sure your boards conform to these design rules.</description>
 <param name="mdSmdSmd" value="5mil"/>
 <param name="mdViaViaSameLayer" value="8mil"/>
 <param name="mnLayersViaInSmd" value="2"/>
-<param name="mdCopperDimension" value="15mil"/>
+<param name="mdCopperDimension" value="18mil"/>
 <param name="mdDrill" value="6mil"/>
 <param name="mdSmdStop" value="0mil"/>
 <param name="msWidth" value="5mil"/>
@@ -3334,7 +3337,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="15.748" y1="33.02" x2="16.002" y2="32.766" width="0.3048" layer="16"/>
 <wire x1="16.002" y1="32.766" x2="16.002" y2="32.191" width="0.3048" layer="16"/>
 <wire x1="16.002" y1="32.191" x2="16.062" y2="32.131" width="0.3048" layer="16"/>
-<polygon width="0.3048" layer="16" rank="2">
+<polygon width="0.3048" layer="16" isolate="0.254" rank="2">
 <vertex x="1" y="62.5"/>
 <vertex x="66.31" y="62.5"/>
 <vertex x="66.31" y="1"/>
@@ -4525,7 +4528,7 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="C3" pad="A"/>
 <contactref element="R23" pad="1"/>
 <contactref element="D3" pad="C"/>
-<polygon width="0.4064" layer="15" rank="2">
+<polygon width="0.4064" layer="15" isolate="0.254" rank="2">
 <vertex x="1" y="62.5"/>
 <vertex x="66.31" y="62.5"/>
 <vertex x="66.31" y="39.624"/>

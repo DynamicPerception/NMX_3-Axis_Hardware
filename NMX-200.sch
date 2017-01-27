@@ -6010,15 +6010,18 @@ Updated from atml.lbr 17.01.2005 alf@cadsoft.de</description>
 </package>
 <package name="DC_JACK_KLDX">
 <wire x1="4.5" y1="7.6" x2="2.4" y2="7.6" width="0.2032" layer="21"/>
+<wire x1="4.5" y1="-7.6" x2="-4.5" y2="-7.6" width="0.2032" layer="51"/>
+<wire x1="4.5" y1="-7.6" x2="4.5" y2="-3.65" width="0.2032" layer="21"/>
 <wire x1="4.5" y1="-3.65" x2="4.5" y2="1.53" width="0.2032" layer="21"/>
 <wire x1="4.5" y1="7.6" x2="4.5" y2="6.23" width="0.2032" layer="21"/>
+<wire x1="-4.5" y1="-7.6" x2="-4.5" y2="-3.65" width="0.2032" layer="21"/>
 <wire x1="-4.5" y1="-3.65" x2="-4.5" y2="7.6" width="0.2032" layer="21"/>
 <wire x1="-4.5" y1="7.6" x2="-2.4" y2="7.6" width="0.2032" layer="21"/>
-<pad name="GND" x="0" y="0.85" drill="2.5" diameter="4.318"/>
-<pad name="GNDBREAK" x="4.7" y="3.9" drill="2.5" rot="R90"/>
-<pad name="PWR" x="0" y="6.9" drill="3"/>
-<text x="-5.08" y="3.39" size="0.8128" layer="25" font="vector" rot="R90">&gt;NAME</text>
 <wire x1="4.5" y1="-3.65" x2="-4.5" y2="-3.65" width="0.127" layer="21"/>
+<pad name="GND" x="0" y="0.85" drill="2.6" diameter="4.318"/>
+<pad name="GNDBREAK" x="4.7" y="3.9" drill="2.6" rot="R90"/>
+<pad name="PWR" x="0" y="6.9" drill="3.1"/>
+<text x="-5.08" y="3.39" size="0.8128" layer="25" font="vector" rot="R90">&gt;NAME</text>
 </package>
 <package name="6-SOT">
 <wire x1="2.1825" y1="1.5" x2="2.1825" y2="-1.5" width="0.127" layer="21"/>
@@ -15965,7 +15968,6 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <wire x1="78.74" y1="213.36" x2="78.74" y2="185.42" width="0.1524" layer="94"/>
 <wire x1="66.04" y1="154.94" x2="5.08" y2="154.94" width="0.1524" layer="94"/>
 <wire x1="66.04" y1="185.42" x2="5.08" y2="185.42" width="0.1524" layer="94"/>
-<wire x1="78.74" y1="213.36" x2="5.08" y2="213.36" width="0.1524" layer="94"/>
 <text x="5.08" y="254" size="1.778" layer="94">Reverse Polarity Protection</text>
 <text x="5.08" y="210.82" size="1.778" layer="94">5V Regulator</text>
 <text x="5.08" y="182.88" size="1.778" layer="94">Generic Input/Output Connector</text>
